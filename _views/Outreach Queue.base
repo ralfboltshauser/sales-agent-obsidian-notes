@@ -14,6 +14,8 @@ properties:
     displayName: Step
   subject:
     displayName: Subject
+  body:
+    displayName: Body
   sent_at:
     displayName: Sent at
   formula.sent_ago:
@@ -38,6 +40,7 @@ views:
       - file.name
       - people
       - subject
+      - body
       - channel
       - thread_url
       - template
@@ -53,6 +56,7 @@ views:
       - file.name
       - people
       - subject
+      - body
       - channel
       - template
       - file.mtime
@@ -63,6 +67,7 @@ views:
       - file.name
       - people
       - subject
+      - body
       - sent_at
       - formula.sent_ago
       - reply_status
