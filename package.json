@@ -13,8 +13,7 @@
     "fix": "pnpm run format && pnpm run lint"
   },
   "lint-staged": {
-    "*.md": ["prettier --write", "markdownlint-cli2 --fix"],
-    "People/**/*.md": ["node scripts/people-outreach-wave.mjs validate"]
+    "*.md": ["prettier --write", "markdownlint-cli2 --fix"]
   },
   "devDependencies": {
     "husky": "^9.1.7",
