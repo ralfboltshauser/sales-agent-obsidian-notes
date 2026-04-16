@@ -6,9 +6,7 @@
   "lintOnFileChange": false,
   "displayLintOnFileChangeNotice": false,
   "additionalFileExtensions": [],
-  "foldersToIgnore": [
-    ".obsidian"
-  ],
+  "foldersToIgnore": [".obsidian"],
   "filesToIgnore": [],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
@@ -44,7 +42,7 @@
         "company_icp",
         "outreach_sends",
         "outreach_messages",
-        "message",
+        "template",
         "industry",
         "offer_documents"
       ]

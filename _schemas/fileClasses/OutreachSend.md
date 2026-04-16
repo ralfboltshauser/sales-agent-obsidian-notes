@@ -46,8 +46,8 @@ fields:
     id: outreach-send-people
     type: MultiFile
     options: {}
-  - name: message
-    id: outreach-send-message
+  - name: template
+    id: outreach-send-template
     type: MultiFile
     options: {}
   - name: thread_url
@@ -60,4 +60,4 @@ fields:
 
 FileClass for exported outreach send notes.
 
-**`message`:** must include at least one wikilink under **`Outreach Templates/`** (canonical copy for the send). Enforced by `pnpm run validate:outreach-sends`.
+**`template`:** must include at least one wikilink under **`Outreach Templates/`** (canonical template used for this send). Enforced by `pnpm run validate:outreach-sends`.

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Every Outreach Sends/*.md must link at least one Outreach Templates note via YAML `message:` (MultiFile).
+ * Every Outreach Sends/*.md must link at least one Outreach Templates note via YAML `template:` (MultiFile).
  */
 import { readFileSync, readdirSync } from "node:fs";
 import { basename, dirname, join } from "node:path";
@@ -17,14 +17,14 @@ function parseFrontmatter(content) {
   return { fm: m[1] };
 }
 
-/** Value block for `message:` until next top-level YAML key (line `word:` at column 0). */
-function extractMessageBlock(fm) {
+/** Value block for `template:` until next top-level YAML key (line `word:` at column 0). */
+function extractTemplateBlock(fm) {
   const lines = fm.split(/\r?\n/);
-  const i = lines.findIndex((l) => /^message:\s*/.test(l));
+  const i = lines.findIndex((l) => /^template:\s*/.test(l));
   if (i === -1) return null;
   const first = lines[i];
-  if (/^message:\s*\[\]\s*$/.test(first)) return "";
-  if (/^message:\s*null\s*$/.test(first)) return "";
+  if (/^template:\s*\[\]\s*$/.test(first)) return "";
+  if (/^template:\s*null\s*$/.test(first)) return "";
   const parts = [first];
   for (let j = i + 1; j < lines.length; j++) {
     const line = lines[j];
@@ -56,20 +56,20 @@ function validate(targetFiles = null) {
       continue;
     }
 
-    const block = extractMessageBlock(fm);
+    const block = extractTemplateBlock(fm);
     if (block === null) {
-      errors.push(`${file}: missing message field`);
+      errors.push(`${file}: missing template field`);
       continue;
     }
     if (!block.trim()) {
       errors.push(
-        `${file}: message must link at least one note under ${TEMPLATE_PATH} (non-empty message list)`,
+        `${file}: template must link at least one note under ${TEMPLATE_PATH} (non-empty template list)`,
       );
       continue;
     }
     if (!TEMPLATE_LINK.test(block)) {
       errors.push(
-        `${file}: message must include a wikilink like [[Outreach Templates/...]] (got: ${JSON.stringify(block.slice(0, 120))}…)`,
+        `${file}: template must include a wikilink like [[Outreach Templates/...]] (got: ${JSON.stringify(block.slice(0, 120))}…)`,
       );
     }
   }
@@ -85,9 +85,9 @@ if (cmd === "validate") {
     console.error(errors.join("\n"));
     process.exit(1);
   }
-  console.error("outreach-send-message-template: ok");
+  console.error("outreach-send-template: ok");
   process.exit(0);
 }
 
-console.error("Usage: node scripts/outreach-send-message-template.mjs validate [files...]");
+console.error("Usage: node scripts/outreach-send-template.mjs validate [files...]");
 process.exit(1);

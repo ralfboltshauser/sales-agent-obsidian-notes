@@ -31,7 +31,7 @@ This vault is **git-backed**, lives **only in this folder** (not the parent `sal
 | **Obsidian Linter** (plugin)            | YAML sort + array layout **inside Obsidian**; multi-line lists for relation keys are configured in `.obsidian/plugins/obsidian-linter/data.json` → `format-yaml-array` → `forceMultiLineArrayStyle`. |
 | **`pnpm run validate:people`**          | Every `People/*.md` must have `outreach_wave` integer **1–5** (`scripts/people-outreach-wave.mjs`).                                                                                                  |
 | **`pnpm run validate:outreach-status`** | Every `People/*.md` must have `outreach_status` in the ordered allowlist (`_schemas/allowlists/person-outreach-status.json`, `scripts/person-outreach-status.mjs`).                                  |
-| **`pnpm run validate:outreach-sends`**  | Every `Outreach Sends/*.md` must have YAML `message:` linking at least one `Outreach Templates/` note (`scripts/outreach-send-message-template.mjs`).                                                |
+| **`pnpm run validate:outreach-sends`**  | Every `Outreach Sends/*.md` must have YAML `template:` linking at least one `Outreach Templates/` note (`scripts/outreach-send-template.mjs`).                                                       |
 
 ### Commands
 
@@ -57,7 +57,7 @@ Use this when you add fields, rename selects, or introduce new relation arrays.
 
 3. **People-specific rules**  
    If `Person` gains new **required** frontmatter, extend `scripts/people-outreach-wave.mjs` (and `pnpm run check`) so commits cannot drift. For **`outreach_status`** values, update `_schemas/allowlists/person-outreach-status.json` and the `Person` file class in lockstep, and keep `scripts/person-outreach-status.mjs` reading that JSON.  
-   For **`Outreach Sends`**, every note must have YAML **`message:`** linking at least one **`Outreach Templates/`** note—update `scripts/outreach-send-message-template.mjs` if the rule changes.
+   For **`Outreach Sends`**, every note must have YAML **`template:`** linking at least one **`Outreach Templates/`** note—update `scripts/outreach-send-template.mjs` if the rule changes.
 
 4. **markdownlint / Prettier**  
    If a new folder should be excluded, update `.markdownlint-cli2.jsonc` / `.prettierignore`.

@@ -31,6 +31,8 @@ properties:
     displayName: Reply Status
   sent_at:
     displayName: Sent At
+  template:
+    displayName: Template
   people:
     displayName: People
   companies:
@@ -109,5 +111,6 @@ views:
       - replied
       - positive_reply
       - sent_at
+      - template
       - people
       - file.mtime

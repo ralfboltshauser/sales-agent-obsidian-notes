@@ -12,7 +12,7 @@ notes: "Draft via sales-outreach-playbook (To Contact, wave 1). Template: Search
 people:
   - "[[People/christoph-battocletti--34346cdd|Christoph Battocletti]]"
 responded_at: null
-message:
+template:
   - "[[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]"
 step: "Initial Outreach"
 reply_status: "No Reply Yet"

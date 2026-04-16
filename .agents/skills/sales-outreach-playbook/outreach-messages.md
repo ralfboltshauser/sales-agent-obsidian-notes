@@ -5,7 +5,7 @@
 ## Where templates live
 
 - **`Outreach Templates/`** — canonical copy; `message_body` with `{{placeholders}}`.
-- **`Outreach Sends/`** — one note per send/thread; link **`people`**, and **required** **`message:`** → at least one **`Outreach Templates/`** note (repo check: `pnpm run validate:outreach-sends`).
+- **`Outreach Sends/`** — one note per send/thread; link **`people`**, and **required** **`template:`** → at least one **`Outreach Templates/`** note (repo check: `pnpm run validate:outreach-sends`).
 
 ## Writing rules
 
@@ -13,7 +13,7 @@
 2. **Replace every `{{}}`** — firm name, first name, personalization line, your name, calendar or reply CTA.
 3. **One hypothesis** — what you believe about _their_ motion; offer an easy “wrong” exit.
 4. **Short** — partners skim; respect retained-search tone (signal > volume).
-5. **Draft in `Outreach Sends/`** — set **`message:`** to a multi-line wikilink list pointing at the template you used; keep `sent_at` null until sent. Never leave **`message: []`**.
+5. **Draft in `Outreach Sends/`** — set **`template:`** to a multi-line wikilink list pointing at the template you used; keep `sent_at` null until sent. Never leave **`template: []`**.
 
 ## Personalization sources (priority)
 
@@ -23,5 +23,5 @@
 
 ## Done when
 
-- Draft is in **`Outreach Sends/`** with **`message:`** → **`Outreach Templates/…`**, and linked from **`People.outreach_sends`**.
+- Draft is in **`Outreach Sends/`** with **`template:`** → **`Outreach Templates/…`**, and linked from **`People.outreach_sends`**.
 - Person remains or moves to **`To Contact`** until send, then update per [execute-and-log.md](execute-and-log.md).

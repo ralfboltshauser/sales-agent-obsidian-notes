@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 test("validate:outreach-sends passes on repository Outreach Sends", () => {
-  const r = spawnSync("node", ["scripts/outreach-send-message-template.mjs", "validate"], {
+  const r = spawnSync("node", ["scripts/outreach-send-template.mjs", "validate"], {
     cwd: root,
     encoding: "utf8",
   });

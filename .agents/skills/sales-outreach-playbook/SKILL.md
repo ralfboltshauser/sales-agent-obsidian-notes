@@ -36,7 +36,7 @@ When the user invokes this skill:
 2. **Open only the reference** for that step (plus vault workflow/state machine when relevant).
 3. **Prefer vault edits** (notes, links, statuses) over generic advice.
 4. **Run `pnpm run check`** before committing if you changed markdown under the vault.
-5. **Outreach Sends:** every new or edited send must have YAML **`message:`** with at least one `[[Outreach Templates/...]]` link (enforced by `pnpm run validate:outreach-sends`—see [outreach-messages.md](outreach-messages.md)).
+5. **Outreach Sends:** every new or edited send must have YAML **`template:`** with at least one `[[Outreach Templates/...]]` link (enforced by `pnpm run validate:outreach-sends`—see [outreach-messages.md](outreach-messages.md)).
 
 ## See also
 

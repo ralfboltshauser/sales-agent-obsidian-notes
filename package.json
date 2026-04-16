@@ -9,10 +9,10 @@
     "format:check": "prettier --check \"**/*.md\"",
     "validate:people": "node scripts/people-outreach-wave.mjs validate",
     "validate:outreach-status": "node scripts/person-outreach-status.mjs validate",
-    "validate:outreach-sends": "node scripts/outreach-send-message-template.mjs validate",
+    "validate:outreach-sends": "node scripts/outreach-send-template.mjs validate",
     "check": "pnpm run lint && pnpm run format:check && pnpm run validate:people && pnpm run validate:outreach-status && pnpm run validate:outreach-sends",
     "fix": "pnpm run format && pnpm run lint",
-    "test": "node --test scripts/person-outreach-status.test.mjs scripts/outreach-send-message-template.test.mjs"
+    "test": "node --test scripts/person-outreach-status.test.mjs scripts/outreach-send-template.test.mjs"
   },
   "lint-staged": {
     "*.md": ["prettier --write", "markdownlint-cli2 --fix"]

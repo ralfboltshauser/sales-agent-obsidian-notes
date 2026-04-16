@@ -116,4 +116,4 @@ Notes in **`Outreach Templates/`** follow this class. They mirror the **Notion �
 | ICPs (relation)                                        | `icps` (MultiFile → `ICPs/`)                                     |
 | Rollups (reply rate, counts, …)                        | not modeled here (stay in Notion)                                |
 
-**Relations in the vault:** link **from** `Personas` → `outreach_messages` → these notes; link **from** `Outreach Sends` → `message` → these notes. Optional `outreach_messages` on a template is for other template notes (e.g. follow-up chain) in the same folder.
+**Relations in the vault:** link **from** `Personas` → `outreach_messages` → these notes; link **from** `Outreach Sends` → `template` → these notes. Optional `outreach_messages` on a template is for other template notes (e.g. follow-up chain) in the same folder.

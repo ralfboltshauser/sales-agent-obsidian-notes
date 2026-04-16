@@ -12,7 +12,7 @@ notes: "Draft from workflow step 1 (To Contact, wave 1). Template: Search Firm O
 people:
   - "[[People/emile-borrer--34346cdd|Emile Borrer]]"
 responded_at: null
-message:
+template:
   - "[[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]"
 step: "Initial Outreach"
 reply_status: "No Reply Yet"
