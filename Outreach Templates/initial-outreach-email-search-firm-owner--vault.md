@@ -1,22 +1,22 @@
 ---
-title: "Initial outreach email — Search Firm Owner"
-type: "Outreach Templates"
-fileClass: "OutreachTemplate"
-notion_id: null
-notion_url: null
-icon: null
-exported_at: "2026-04-16T12:00:00.000Z"
-name: "Initial outreach email — Search Firm Owner"
-channel: "Email"
-step: "Initial Outreach"
-status: "Draft"
-target_persona: "Owner / managing partner who owns retained mandate generation and partner BD time."
-hypothesis: "Firms win on trust and signal quality; generic outbound feels reputation-risky, so a sharp, specific hypothesis earns a short call."
+title: Initial outreach email — Search Firm Owner
+type: Outreach Templates
+fileClass: OutreachTemplate
+notion_id:
+notion_url:
+icon:
+exported_at: 2026-04-16T12:00:00.000Z
+name: Initial outreach email — Search Firm Owner
+channel: Email
+step: Initial Outreach
+status: Draft
+target_persona: Owner / managing partner who owns retained mandate generation and partner BD time.
+hypothesis: Firms win on trust and signal quality; generic outbound feels reputation-risky, so a sharp, specific hypothesis earns a short call.
 angle: "Respect the retained-search motion: less 'more emails', more repeatable account context + follow-up quality for partners."
-cta: "One 20-minute call to pressure-test the hypothesis on two live accounts you care about—not a product tour."
-variant: "A — hypothesis-led (email)"
-notes: "Replace every {{}} before send. Add one non-obvious line from their site, team page, or recent mandate news."
-message_body: |
+cta: One 20-minute call to pressure-test the hypothesis on two live accounts you care about—not a product tour.
+variant: A — hypothesis-led (email)
+notes: Replace every {{}} before send. Add one non-obvious line from their site, team page, or recent mandate news.
+message_body: |-
   Subject: {{firm_name}} — hypothesis on partner BD prep (happy to be wrong)
 
   Hi {{first_name}},

@@ -9,3 +9,8 @@ node_modules/
 *.log
 .npm-debug.log*
 pnpm-debug.log*
+
+# Local agent / editor artifacts (not vault content)
+.agents/
+.claude/
+skills-lock.json
