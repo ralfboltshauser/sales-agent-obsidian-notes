@@ -15,11 +15,11 @@ Starter Obsidian Bases for the exported sales vault live here.
 
 Focused on **`Outreach Sends/`** only:
 
-| View                        | What it shows                                                                                                               |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Ready to send**           | `sent_at` is empty **and** both **`subject`** and **`body`** are filled (paste-ready email drafts).                         |
-| **Unsent — still drafting** | `sent_at` empty but copy not complete yet—finish Properties first.                                                          |
-| **Sent log**                | Anything with **`sent_at`** set, plus a **Sent timing** column (`sent_at.relative()`) so you can eyeball follow-up spacing. |
+| View                        | What it shows                                                                                                                          |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ready to send**           | `sent_at` empty and **`subject`** + **`body`** filled. Table shows **Body** (after **Subject**) so you can read or copy from the base. |
+| **Unsent — still drafting** | `sent_at` empty but subject/body not both filled yet. **Body** column shown (often empty).                                             |
+| **Sent log**                | `sent_at` set. **Body** + **Sent timing** (`sent_at.relative()`) for follow-up spacing.                                                |
 
 ### Marking a send as sent (no plugin “button”)
 
