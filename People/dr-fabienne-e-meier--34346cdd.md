@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Dr-Fabienne-E-Meier-34346cdd8a7981f88a9cc9a12
 icon: null
 exported_at: "2026-04-16T09:27:53.669Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: "office@knightgianella.ch"

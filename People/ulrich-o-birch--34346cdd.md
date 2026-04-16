@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Ulrich-O-Birch-34346cdd8a798185a164c2d9f2bc16
 icon: null
 exported_at: "2026-04-16T09:27:53.679Z"
 outreach_status: "To Research"
+outreach_wave: 3
 seniority: "VP/Head"
 last_contacted: null
 email: null

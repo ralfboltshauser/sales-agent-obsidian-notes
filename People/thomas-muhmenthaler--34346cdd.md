@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Thomas-Muhmenthaler-34346cdd8a79811aa1b7f4216
 icon: null
 exported_at: "2026-04-16T09:27:53.678Z"
 outreach_status: "To Contact"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "thomas.muhmenthaler@viavanta.ch"

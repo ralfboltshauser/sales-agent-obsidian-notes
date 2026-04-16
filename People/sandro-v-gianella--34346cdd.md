@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Sandro-V-Gianella-34346cdd8a7981b48e9fd69de7f
 icon: null
 exported_at: "2026-04-16T09:27:53.677Z"
 outreach_status: "To Contact"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "office@knightgianella.ch"

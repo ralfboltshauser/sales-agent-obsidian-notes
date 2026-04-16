@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Enrica-Tomasina-34346cdd8a798129ba18e8450085c
 icon: null
 exported_at: "2026-04-16T09:27:53.670Z"
 outreach_status: "To Contact"
+outreach_wave: 3
 seniority: "VP/Head"
 last_contacted: null
 email: null

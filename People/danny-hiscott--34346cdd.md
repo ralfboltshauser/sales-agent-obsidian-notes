@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Danny-Hiscott-34346cdd8a7981dbb03af5971d4d972
 icon: null
 exported_at: "2026-04-16T09:27:53.669Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: null

@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Marc-A-Geiger-34346cdd8a798170b2f1d0a436ebb2c
 icon: null
 exported_at: "2026-04-16T09:27:53.674Z"
 outreach_status: "To Research"
+outreach_wave: 3
 seniority: "VP/Head"
 last_contacted: null
 email: null

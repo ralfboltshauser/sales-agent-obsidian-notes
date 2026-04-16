@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Eveline-Muhmenthaler-34346cdd8a79818f8480efb9
 icon: null
 exported_at: "2026-04-16T09:27:53.670Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: "eveline.muhmenthaler@viavanta.ch"

@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Cezara-Vlasov-34346cdd8a7981fbbde9cdb9013937c
 icon: null
 exported_at: "2026-04-16T09:27:53.668Z"
 outreach_status: "To Contact"
+outreach_wave: 3
 seniority: "VP/Head"
 last_contacted: null
 email: "info@keysearch.com"

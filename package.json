@@ -7,11 +7,14 @@
     "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#.git\"",
     "format": "prettier --write \"**/*.md\"",
     "format:check": "prettier --check \"**/*.md\"",
-    "check": "pnpm run lint && pnpm run format:check",
+    "validate:people": "node scripts/people-outreach-wave.mjs validate",
+    "sync:people-waves": "node scripts/people-outreach-wave.mjs sync",
+    "check": "pnpm run lint && pnpm run format:check && pnpm run validate:people",
     "fix": "pnpm run format && pnpm run lint"
   },
   "lint-staged": {
-    "*.md": ["prettier --write", "markdownlint-cli2 --fix"]
+    "*.md": ["prettier --write", "markdownlint-cli2 --fix"],
+    "People/**/*.md": ["node scripts/people-outreach-wave.mjs validate"]
   },
   "devDependencies": {
     "husky": "^9.1.7",

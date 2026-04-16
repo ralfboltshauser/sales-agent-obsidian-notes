@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Martin-Honegger-34346cdd8a798141a71bf278fc9ac
 icon: null
 exported_at: "2026-04-16T09:27:53.674Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: null

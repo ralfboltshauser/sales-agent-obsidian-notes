@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Harry-Houthuijse-34346cdd8a7981089c8fd7322cf0
 icon: null
 exported_at: "2026-04-16T09:27:53.672Z"
 outreach_status: "To Contact"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "welcome@cornfeld.ch"

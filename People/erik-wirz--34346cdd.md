@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Erik-Wirz-34346cdd8a7981459c5eff561a86f61a"
 icon: null
 exported_at: "2026-04-16T09:27:53.670Z"
 outreach_status: "To Research"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "erik.wirz@w-gruppe.com"

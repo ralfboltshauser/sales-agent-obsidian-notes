@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Stephanie-Schliffski-34346cdd8a7981cbbfaed316
 icon: null
 exported_at: "2026-04-16T09:27:53.678Z"
 outreach_status: "To Contact"
+outreach_wave: 3
 seniority: "IC"
 last_contacted: null
 email: "stephanie.schliffski@swisselect.ch"

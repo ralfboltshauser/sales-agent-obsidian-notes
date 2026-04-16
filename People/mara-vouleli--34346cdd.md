@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Mara-Vouleli-34346cdd8a7981c68a62c7e4f323f783
 icon: null
 exported_at: "2026-04-16T09:27:53.674Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: "info@keysearch.com"

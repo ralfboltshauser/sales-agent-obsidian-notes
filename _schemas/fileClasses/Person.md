@@ -18,6 +18,17 @@ fields:
         Contacted: Contacted
         To Contact: To Contact
         To Research: To Research
+  - name: outreach_wave
+    id: person-outreach-wave
+    type: Select
+    options:
+      sourceType: ValuesList
+      valuesList:
+        "1": "1 — Economic buyer / owner first"
+        "2": "2 — Key partner or champion"
+        "3": "3 — Partner / consultant coverage"
+        "4": "4 — Broad consultant / BD reality"
+        "5": "5 — Sourcing & user-level depth"
   - name: buying_role
     id: person-buying-role
     type: Select

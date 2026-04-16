@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Samuel-Huber-34346cdd8a7981768b4ed2820a23a6a5
 icon: null
 exported_at: "2026-04-16T09:27:53.677Z"
 outreach_status: "Contacted"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: "2026-04-15"
 email: "samuel.huber@find.ch"

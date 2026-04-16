@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Bea-Gerber-34246cdd8a79811d8517fa682d131dc1"
 icon: null
 exported_at: "2026-04-16T09:27:53.665Z"
 outreach_status: "To Contact"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "bea.gerber@swisselect.ch"

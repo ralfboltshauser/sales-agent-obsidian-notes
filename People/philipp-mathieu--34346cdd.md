@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Philipp-Mathieu-34346cdd8a798108b96fdea277f9b
 icon: null
 exported_at: "2026-04-16T09:27:53.675Z"
 outreach_status: "To Contact"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "philipp.mathieu@viavanta.ch"

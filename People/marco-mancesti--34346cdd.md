@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Marco-Mancesti-34346cdd8a7981de90a5e0d5d5e39d
 icon: null
 exported_at: "2026-04-16T09:27:53.674Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "Director"
 last_contacted: null
 email: "mmancesti@headtohead.ch"

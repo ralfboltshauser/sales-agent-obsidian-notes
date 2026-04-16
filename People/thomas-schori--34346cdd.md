@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Thomas-Schori-34346cdd8a79815289e6de6ac734f44
 icon: null
 exported_at: "2026-04-16T09:27:53.678Z"
 outreach_status: "To Research"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: "thomas.schori@w-gruppe.com"

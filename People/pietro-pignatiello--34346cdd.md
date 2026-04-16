@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Pietro-Pignatiello-34346cdd8a7981e89117e5d613
 icon: null
 exported_at: "2026-04-16T09:27:53.676Z"
 outreach_status: "To Research"
+outreach_wave: 3
 seniority: "VP/Head"
 last_contacted: null
 email: null

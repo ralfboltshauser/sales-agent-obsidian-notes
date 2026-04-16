@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Leonie-Fehr-34346cdd8a79814f8cc9e4a0a34e03c4"
 icon: null
 exported_at: "2026-04-16T09:27:53.673Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: "info@keysearch.com"

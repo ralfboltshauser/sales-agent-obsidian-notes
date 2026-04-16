@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Jennifer-Borrer-34346cdd8a79810fb5a2c1cc3dbc1
 icon: null
 exported_at: "2026-04-16T09:27:53.672Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "Owner"
 last_contacted: null
 email: null

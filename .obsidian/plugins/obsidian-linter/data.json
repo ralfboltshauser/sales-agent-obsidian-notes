@@ -71,7 +71,9 @@
         "name",
         "status",
         "priority",
-        "stage"
+        "stage",
+        "outreach_status",
+        "outreach_wave"
       ],
       "priorityKeysAtStartOfYaml": true,
       "yamlSortOrderForOtherKeys": "Ascending Alphabetical"

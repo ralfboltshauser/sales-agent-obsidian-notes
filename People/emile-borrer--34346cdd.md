@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Emile-Borrer-34346cdd8a79810c984cf959df159ab7
 icon: null
 exported_at: "2026-04-16T09:27:53.670Z"
 outreach_status: "To Contact"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "emile@borrerexecutive.com"

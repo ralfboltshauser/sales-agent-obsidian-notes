@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Susanne-Buri-34346cdd8a7981dc8abad1d0a61d4e98
 icon: null
 exported_at: "2026-04-16T09:27:53.678Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: "susanne.buri@swisselect.ch"

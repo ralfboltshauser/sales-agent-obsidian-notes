@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Monika-Vogt-34346cdd8a7981c1a402d2e5cbdc3033"
 icon: null
 exported_at: "2026-04-16T09:27:53.675Z"
 outreach_status: "To Contact"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: "Monika.Vogt@viavanta.ch"

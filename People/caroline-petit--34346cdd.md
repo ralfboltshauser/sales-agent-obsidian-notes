@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Caroline-Petit-34346cdd8a79813cb17df78f5a77a3
 icon: null
 exported_at: "2026-04-16T09:27:53.667Z"
 outreach_status: "To Contact"
+outreach_wave: 3
 seniority: "VP/Head"
 last_contacted: null
 email: null

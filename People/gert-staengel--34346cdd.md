@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Gert-STAENGEL-34346cdd8a7981cab191cf01807351c
 icon: null
 exported_at: "2026-04-16T09:27:53.672Z"
 outreach_status: "To Research"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: null

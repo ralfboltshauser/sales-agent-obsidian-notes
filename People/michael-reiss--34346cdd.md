@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Michael-Reiss-34346cdd8a79814b80d9fe2d828afab
 icon: null
 exported_at: "2026-04-16T09:27:53.674Z"
 outreach_status: "To Contact"
+outreach_wave: 4
 seniority: "IC"
 last_contacted: null
 email: "michael.reiss@swisselect.ch"

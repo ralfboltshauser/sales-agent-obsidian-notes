@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Robert-Hollinger-34246cdd8a798188a1b9e939bc81
 icon: null
 exported_at: "2026-04-16T09:27:53.676Z"
 outreach_status: "To Contact"
+outreach_wave: 3
 seniority: "IC"
 last_contacted: null
 email: "robert.hollinger@swisselect.ch"

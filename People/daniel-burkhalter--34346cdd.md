@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Daniel-Burkhalter-34346cdd8a7981fb848bebaf64b
 icon: null
 exported_at: "2026-04-16T09:27:53.669Z"
 outreach_status: "To Research"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "daniel.burkhalter@swisselect.ch"

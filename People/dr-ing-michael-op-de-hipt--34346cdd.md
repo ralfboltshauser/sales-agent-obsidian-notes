@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Dr-Ing-Michael-Op-de-Hipt-34346cdd8a7981e8b50
 icon: null
 exported_at: "2026-04-16T09:27:53.669Z"
 outreach_status: "To Contact"
+outreach_wave: 3
 seniority: "IC"
 last_contacted: null
 email: "michael.opdehipt@swisselect.ch"

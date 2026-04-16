@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Caroline-Miller-34346cdd8a79814db94df9e1927d5
 icon: null
 exported_at: "2026-04-16T09:27:53.667Z"
 outreach_status: "To Contact"
+outreach_wave: 1
 seniority: "Owner"
 last_contacted: null
 email: "cmiller@headtohead.ch"

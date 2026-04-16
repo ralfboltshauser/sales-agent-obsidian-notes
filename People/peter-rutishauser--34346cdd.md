@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Peter-Rutishauser-34346cdd8a7981fdbe71ceeaf36
 icon: null
 exported_at: "2026-04-16T09:27:53.675Z"
 outreach_status: "To Research"
+outreach_wave: 2
 seniority: "VP/Head"
 last_contacted: null
 email: null

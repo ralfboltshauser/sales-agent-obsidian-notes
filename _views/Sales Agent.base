@@ -25,6 +25,8 @@ properties:
     displayName: Preferred Channel
   outreach_status:
     displayName: Outreach Status
+  outreach_wave:
+    displayName: Outreach Wave
   reply_status:
     displayName: Reply Status
   sent_at:
@@ -72,6 +74,7 @@ views:
     filters: file.inFolder("People")
     order:
       - file.name
+      - outreach_wave
       - outreach_status
       - buying_role
       - department

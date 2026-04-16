@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Kaspar-Widmer-Cantz-34346cdd8a79818e9ed8ecc7f
 icon: null
 exported_at: "2026-04-16T09:27:53.673Z"
 outreach_status: "To Contact"
+outreach_wave: 3
 seniority: "VP/Head"
 last_contacted: null
 email: null

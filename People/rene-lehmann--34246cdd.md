@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Ren-Lehmann-34246cdd8a7981de8206e08310ae34be"
 icon: null
 exported_at: "2026-04-16T09:27:53.676Z"
 outreach_status: "To Contact"
+outreach_wave: 5
 seniority: "IC"
 last_contacted: null
 email: "rene.lehmann@swisselect.ch"

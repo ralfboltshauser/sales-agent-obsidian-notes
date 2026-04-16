@@ -7,6 +7,7 @@ notion_url: "https://www.notion.so/Gabriella-Snoeck-34346cdd8a7981b4a716f5d2c1cb
 icon: null
 exported_at: "2026-04-16T09:27:53.671Z"
 outreach_status: "To Contact"
+outreach_wave: 3
 seniority: "VP/Head"
 last_contacted: null
 email: null
