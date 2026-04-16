@@ -45,7 +45,8 @@
         "outreach_sends",
         "outreach_messages",
         "message",
-        "industry"
+        "industry",
+        "offer_documents"
       ]
     },
     "line-break-at-document-end": {

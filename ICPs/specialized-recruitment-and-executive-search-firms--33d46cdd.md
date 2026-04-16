@@ -33,6 +33,8 @@ personas:
   - "[[Personas/customer-relations-lead--34346cdd|Customer Relations Lead]]"
   - "[[Personas/search-operations-lead--34346cdd|Search Operations Lead]]"
 conversations: []
+offer_documents:
+  - "[[ICPs/specialized-recruitment-and-executive-search-firms--33d46cdd/grand-slam-offer-recruitment-firms-sales-offer|Grand-Slam Offer — Recruitment firms sales offer]]"
 offer_hypothesis: "AI sales agent for specialized search firms: target-account research, buyer mapping, outreach drafting, follow-up tracking, CRM discipline, and commercial coordination to help partners win more retained search mandates."
 status: "Interviewing"
 company_size: "11-50"
@@ -61,9 +63,8 @@ name: "Specialized recruitment and executive search firms"
 - [[Personas/executive-search-partner-consultant--34346cdd|Executive Search Partner / Consultant]]
 - [[Personas/customer-relations-lead--34346cdd|Customer Relations Lead]]
 - [[Personas/search-operations-lead--34346cdd|Search Operations Lead]]
+- [[ICPs/specialized-recruitment-and-executive-search-firms--33d46cdd/grand-slam-offer-recruitment-firms-sales-offer|Grand-Slam Offer — Recruitment firms sales offer]]
 
 ## Notes
 
-[[Grand-Slam Offer Builder]]
-
-[[Grand-Slam Offer Builder - Recruitment Firms Sales Offer]]
+Grand-Slam offer workbook (child of this ICP): [[ICPs/specialized-recruitment-and-executive-search-firms--33d46cdd/grand-slam-offer-recruitment-firms-sales-offer|Grand-Slam Offer — Recruitment firms sales offer]]

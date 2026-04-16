@@ -84,6 +84,10 @@ fields:
     id: icp-conversations
     type: MultiFile
     options: {}
+  - name: offer_documents
+    id: icp-offer-documents
+    type: MultiFile
+    options: {}
 ---
 
 # ICP

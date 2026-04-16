@@ -37,6 +37,8 @@ properties:
     displayName: Companies
   personas:
     displayName: Personas
+  offer_documents:
+    displayName: Offer docs
 views:
   - type: table
     name: ICPs
@@ -50,6 +52,7 @@ views:
       - primary_buyer
       - companies
       - personas
+      - offer_documents
       - file.mtime
   - type: table
     name: Companies
