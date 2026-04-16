@@ -1,3 +1,5 @@
 node_modules
 pnpm-lock.yaml
 .obsidian/plugins/**/main.js
+.agents
+.claude

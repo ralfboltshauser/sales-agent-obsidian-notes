@@ -10,5 +10,5 @@
     "MD046": { "style": "fenced" }
   },
   "globs": ["**/*.md"],
-  "ignores": ["node_modules", ".git"]
+  "ignores": ["node_modules", ".git", ".agents/**", ".claude/**"]
 }
