@@ -21,12 +21,14 @@ Focused on **`Outreach Sends/`** only:
 | **Unsent — still drafting** | `sent_at` empty but subject/body not both filled yet. **Body** column shown (often empty).                                             |
 | **Sent log**                | `sent_at` set. **Body** + **Sent timing** (`sent_at.relative()`) for follow-up spacing.                                                |
 
-### Marking a send as sent (no plugin “button”)
+### Marking a send as sent
 
-Obsidian Bases tables are read-only for YAML. There is no built-in row action.
+**`Outreach Queue`** tables include a **Sent at** column on **Ready to send** and **Unsent — still drafting** so you can set the date from the base.
 
-1. Open the send from the table (click the note).
-2. In **Properties**, set **`sent_at`** to **today** (or the real send time). That field is your **single source of truth** for “when this went out.”
-3. Update the linked **Person** per the playbook (e.g. **`next_step_date`**, **`outreach_status`**, **`last_contacted`**) so follow-ups are timed from the person record.
+On **current Obsidian** (Bases), many property types—including **Date**—can be updated **inline in the table**: click the **Sent at** cell for that row, then pick **today** in the date control (exactly **one** vs **two** steps depends on the picker UI; there is usually no separate “now” chip).
+
+If inline edit does not respond on your build, open the note (click the send name) and set **`sent_at`** in **Properties** the same way.
+
+That field is the **single source of truth** for when the message went out. Then update the linked **Person** per the playbook (e.g. **`next_step_date`**, **`outreach_status`**, **`last_contacted`**) for follow-up timing.
 
 There is no separate `sentAt` camelCase property—the vault uses YAML **`sent_at`** (Metadata Menu: **Sent at**).

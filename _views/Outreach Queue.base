@@ -2,7 +2,7 @@ filters:
   and:
     - file.inFolder("Outreach Sends")
 formulas:
-  sent_ago: 'if(sent_at, sent_at.relative(), "")'
+  sent_ago: if(sent_at, sent_at.relative(), "")
 properties:
   file.name:
     displayName: Send
@@ -33,9 +33,9 @@ views:
     name: Ready to send
     filters:
       and:
-        - "sent_at == null"
-        - "if(subject, !subject.isEmpty(), false)"
-        - "if(body, !body.isEmpty(), false)"
+        - sent_at == null
+        - if(subject, !subject.isEmpty(), false)
+        - if(body, !body.isEmpty(), false)
     order:
       - file.name
       - people
@@ -44,14 +44,18 @@ views:
       - channel
       - thread_url
       - template
+      - sent_at
       - file.mtime
+    sort:
+      - property: sent_at
+        direction: ASC
   - type: table
     name: Unsent — still drafting
     filters:
       and:
-        - "sent_at == null"
+        - sent_at == null
         - not:
-            - "if(subject, !subject.isEmpty(), false) && if(body, !body.isEmpty(), false)"
+            - if(subject, !subject.isEmpty(), false) && if(body, !body.isEmpty(), false)
     order:
       - file.name
       - people
@@ -59,10 +63,11 @@ views:
       - body
       - channel
       - template
+      - sent_at
       - file.mtime
   - type: table
     name: Sent log
-    filters: "sent_at != null"
+    filters: sent_at != null
     order:
       - file.name
       - people
