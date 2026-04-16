@@ -1,6 +1,6 @@
 ---
 name: edit-sales-obsidian-vault-notes
-description: Day-to-day work inside this sales-agent Obsidian vault—adding notes in existing folders, editing frontmatter and relations, Metadata Menu and Linter behavior, wikilinks, People outreach_wave, ICP child pages. Use when creating or updating individual pages or property values without changing file classes, new entity folders, or repo validators. For schema/tooling changes, use the extend-sales-obsidian-vault skill instead.
+description: Day-to-day work inside this sales-agent Obsidian vault—adding notes in existing folders, editing frontmatter and relations, Metadata Menu and Linter behavior, wikilinks, People outreach_wave and outreach_status (must match the ordered allowlist), ICP child pages. Use when creating or updating individual pages or property values without changing file classes, new entity folders, or repo validators. For schema/tooling changes, use the extend-sales-obsidian-vault skill instead.
 ---
 
 # Edit notes in the sales-agent Obsidian vault
@@ -40,7 +40,7 @@ Vault map and git hooks: [README.md](../../README.md).
 
 ## Update properties (values, not schema)
 
-- **Select / status fields** — Use allowed labels only (see Metadata Menu or the same field on a sibling note). `outreach_wave` for People is **1–5** (integer); repo check fails if missing or out of range.
+- **Select / status fields** — Use allowed labels only (see Metadata Menu or the same field on a sibling note). `outreach_wave` for People is **1–5** (integer); repo check fails if missing or out of range. `outreach_status` must be one of the strings in `_schemas/allowlists/person-outreach-status.json` (same order as the Person file class dropdown).
 - **`MultiFile` relations** — YAML list of wikilinks, usually one item per line, e.g. `- "[[Companies/some-slug--id|Label]]"`. Match path + display text style used in sibling notes.
 - **Empty relations** — Use `[]` on one line or omit the key if that matches neighbors (stay consistent within the folder).
 - **ICP “child” docs** — Create the file under `ICPs/<parent-icp-folder>/`. On the **parent ICP**, add the child to `offer_documents` (wikilink list). Optionally mirror links in the note body (“Linked Records”).

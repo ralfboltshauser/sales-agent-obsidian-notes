@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Person outreach_status (ordered funnel + exits)",
+  "description": "Order is the canonical pipeline order for dropdowns and docs. Keep _schemas/fileClasses/Person.md valuesList in the same order and with the same strings.",
+  "outreach_status": [
+    "To Research",
+    "To Contact",
+    "Contacted",
+    "Follow-up due",
+    "Awaiting reply",
+    "Replied",
+    "Meeting booked",
+    "Meeting held",
+    "Nurture",
+    "Not interested",
+    "Do not contact"
+  ]
+}

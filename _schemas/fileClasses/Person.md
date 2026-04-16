@@ -15,9 +15,17 @@ fields:
     options:
       sourceType: ValuesList
       valuesList:
-        Contacted: Contacted
-        To Contact: To Contact
         To Research: To Research
+        To Contact: To Contact
+        Contacted: Contacted
+        Follow-up due: Follow-up due
+        Awaiting reply: Awaiting reply
+        Replied: Replied
+        Meeting booked: Meeting booked
+        Meeting held: Meeting held
+        Nurture: Nurture
+        "Not interested": "Not interested"
+        "Do not contact": "Do not contact"
   - name: outreach_wave
     id: person-outreach-wave
     type: Select
@@ -121,3 +129,5 @@ fields:
 # Person
 
 FileClass for exported person notes.
+
+**`outreach_status`:** ordered funnel + exits. Canonical strings and order live in `_schemas/allowlists/person-outreach-status.json` (enforced by `pnpm run validate:outreach-status`).

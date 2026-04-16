@@ -69,6 +69,8 @@ If a new key should sort near the top of YAML, extend `yaml-key-sort.yamlKeyPrio
 
 **People `outreach_wave`:** enforced by `scripts/people-outreach-wave.mjs` (integer **1–5** in frontmatter, line `outreach_wave: N`). The `Person` file class `Select` labels must stay aligned with that numeric range.
 
+**People `outreach_status`:** ordered allowlist in `_schemas/allowlists/person-outreach-status.json`, enforced by `scripts/person-outreach-status.mjs` (`pnpm run validate:outreach-status`). When adding or renaming a status, update **that JSON**, the **`Person` file class `valuesList` (same order)**, then run `pnpm run check`.
+
 ---
 
 ## Flow B — Add a new entity type (“new table”)

@@ -24,19 +24,21 @@ This vault is **git-backed**, lives **only in this folder** (not the parent `sal
 
 ## Tooling & linting (what runs where)
 
-| Layer                          | What it does                                                                                                                                                                                         |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Prettier**                   | Formats all `**/*.md`.                                                                                                                                                                               |
-| **markdownlint-cli2**          | Markdown rules; config: `.markdownlint-cli2.jsonc` (Obsidian-friendly: wikilinks, YAML, etc.).                                                                                                       |
-| **Obsidian Linter** (plugin)   | YAML sort + array layout **inside Obsidian**; multi-line lists for relation keys are configured in `.obsidian/plugins/obsidian-linter/data.json` → `format-yaml-array` → `forceMultiLineArrayStyle`. |
-| **`pnpm run validate:people`** | Every `People/*.md` must have `outreach_wave` integer **1–5** (`scripts/people-outreach-wave.mjs`).                                                                                                  |
+| Layer                                   | What it does                                                                                                                                                                                         |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Prettier**                            | Formats all `**/*.md`.                                                                                                                                                                               |
+| **markdownlint-cli2**                   | Markdown rules; config: `.markdownlint-cli2.jsonc` (Obsidian-friendly: wikilinks, YAML, etc.).                                                                                                       |
+| **Obsidian Linter** (plugin)            | YAML sort + array layout **inside Obsidian**; multi-line lists for relation keys are configured in `.obsidian/plugins/obsidian-linter/data.json` → `format-yaml-array` → `forceMultiLineArrayStyle`. |
+| **`pnpm run validate:people`**          | Every `People/*.md` must have `outreach_wave` integer **1–5** (`scripts/people-outreach-wave.mjs`).                                                                                                  |
+| **`pnpm run validate:outreach-status`** | Every `People/*.md` must have `outreach_status` in the ordered allowlist (`_schemas/allowlists/person-outreach-status.json`, `scripts/person-outreach-status.mjs`).                                  |
 
 ### Commands
 
 - `pnpm install` — installs dev deps + wires Husky (`prepare`).
-- `pnpm run check` — **lint + Prettier check + validate:people** (run before push; also **pre-push** hook).
+- `pnpm run check` — **lint + Prettier check + validate:people + validate:outreach-status** (run before push; also **pre-push** hook).
 - `pnpm run fix` — format all markdown + lint auto-fix.
-- **pre-commit:** `lint-staged` (Prettier + markdownlint on **staged** `*.md`) **then** full `validate:people`.
+- `pnpm test` — allowlist shape tests (`scripts/person-outreach-status.test.mjs`).
+- **pre-commit:** `lint-staged` (Prettier + markdownlint on **staged** `*.md`) **then** `validate:people` and `validate:outreach-status`.
 
 Bypass hooks: `git commit --no-verify` or `HUSKY=0` (use sparingly).
 
@@ -53,7 +55,7 @@ Use this when you add fields, rename selects, or introduce new relation arrays.
    If you add a new property that stores `[[links]]` as a multi-line list, add its key to **Obsidian Linter** → `forceMultiLineArrayStyle` in `.obsidian/plugins/obsidian-linter/data.json` so saves stay consistent.
 
 3. **People-specific rules**  
-   If `Person` gains new **required** frontmatter, extend `scripts/people-outreach-wave.mjs` (and `pnpm run check`) so commits cannot drift.
+   If `Person` gains new **required** frontmatter, extend `scripts/people-outreach-wave.mjs` (and `pnpm run check`) so commits cannot drift. For **`outreach_status`** values, update `_schemas/allowlists/person-outreach-status.json` and the `Person` file class in lockstep, and keep `scripts/person-outreach-status.mjs` reading that JSON.
 
 4. **markdownlint / Prettier**  
    If a new folder should be excluded, update `.markdownlint-cli2.jsonc` / `.prettierignore`.

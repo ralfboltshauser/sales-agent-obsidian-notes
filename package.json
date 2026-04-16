@@ -8,8 +8,10 @@
     "format": "prettier --write \"**/*.md\"",
     "format:check": "prettier --check \"**/*.md\"",
     "validate:people": "node scripts/people-outreach-wave.mjs validate",
-    "check": "pnpm run lint && pnpm run format:check && pnpm run validate:people",
-    "fix": "pnpm run format && pnpm run lint"
+    "validate:outreach-status": "node scripts/person-outreach-status.mjs validate",
+    "check": "pnpm run lint && pnpm run format:check && pnpm run validate:people && pnpm run validate:outreach-status",
+    "fix": "pnpm run format && pnpm run lint",
+    "test": "node --test scripts/person-outreach-status.test.mjs"
   },
   "lint-staged": {
     "*.md": ["prettier --write", "markdownlint-cli2 --fix"]
