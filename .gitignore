@@ -10,7 +10,9 @@ node_modules/
 .npm-debug.log*
 pnpm-debug.log*
 
-# Local agent / editor artifacts (not vault content)
-.agents/
+# Local agent / editor artifacts (not vault content). Project skills are tracked under .agents/skills/.
+.agents/**
+!.agents/skills/
+!.agents/skills/**
 .claude/
 skills-lock.json

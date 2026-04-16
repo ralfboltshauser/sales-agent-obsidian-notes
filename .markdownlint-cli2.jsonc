@@ -10,5 +10,12 @@
     "MD046": { "style": "fenced" }
   },
   "globs": ["**/*.md"],
-  "ignores": ["node_modules", ".git", ".agents/**", ".claude/**"]
+  "ignores": [
+    "node_modules",
+    ".git",
+    ".claude/**",
+    ".agents/skills/caveman/**",
+    ".agents/skills/caveman-compress/**",
+    ".agents/skills/caveman-help/**"
+  ]
 }
