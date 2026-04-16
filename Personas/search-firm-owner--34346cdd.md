@@ -14,7 +14,8 @@ notes: "Primary buyer persona for this ICP. Focus on agency-side commercial owne
 department: "Sales"
 preferred_channel: "Email"
 core_pains: "Owns revenue and mandate generation for the search firm. Needs more qualified client conversations without sacrificing trust, positioning, or partner time to manual outreach prep and follow-up."
-outreach_messages: []
+outreach_messages:
+  - "[[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]"
 people:
   - "[[People/bea-gerber--34246cdd|Bea Gerber]]"
   - "[[People/christoph-battocletti--34346cdd|Christoph Battocletti]]"
@@ -59,3 +60,4 @@ name: "Search Firm Owner"
 - [[People/philipp-mathieu--34346cdd|Philipp Mathieu]]
 - [[People/franziska-palumbo-seidel--34346cdd|Franziska Palumbo-Seidel]]
 - [[People/caroline-miller--34346cdd|Caroline Miller]]
+- [[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]
