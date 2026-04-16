@@ -12,7 +12,8 @@ notes: "Warm intro via Sandro Breu. Hypothesis-led outreach asking for a 30-minu
 people:
   - "[[People/samuel-huber--34346cdd|Samuel Huber]]"
 responded_at: null
-message: []
+message:
+  - "[[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]"
 step: "Initial Outreach"
 reply_status: "No Reply Yet"
 positive_reply: false
@@ -26,3 +27,4 @@ name: "Email to Samuel Huber - 2026-04-15"
 ## Linked Records
 
 - [[People/samuel-huber--34346cdd|Samuel Huber]]
+- [[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]

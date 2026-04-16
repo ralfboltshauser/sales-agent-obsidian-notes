@@ -59,3 +59,5 @@ fields:
 # OutreachSend
 
 FileClass for exported outreach send notes.
+
+**`message`:** must include at least one wikilink under **`Outreach Templates/`** (canonical copy for the send). Enforced by `pnpm run validate:outreach-sends`.

@@ -4,7 +4,7 @@
 
 ## On send
 
-1. Update **`Outreach Sends/`** — `sent_at`, `channel`, `step`, `thread_url` / mailto as appropriate.
+1. Update **`Outreach Sends/`** — keep **`message:`** linked to the **`Outreach Templates/`** note you used; set `sent_at`, `channel`, `step`, `thread_url` / mailto as appropriate.
 2. Update **`People/`** — typically **`Contacted`** (or **`Awaiting reply`** if you treat “sent = waiting” immediately—pick one convention and stick to it).
 3. Log **`last_contacted`** when you use that field; set **`next_step_date`** for the next nudge.
 

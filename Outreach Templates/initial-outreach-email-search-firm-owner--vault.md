@@ -34,7 +34,8 @@ message_body: |-
 personas:
   - "[[Personas/search-firm-owner--34346cdd|Search Firm Owner]]"
 outreach_messages: []
-outreach_sends: []
+outreach_sends:
+  - "[[Outreach Sends/email-to-samuel-huber-2026-04-15--34346cdd|Email to Samuel Huber - 2026-04-15]]"
 icps:
   - "[[ICPs/specialized-recruitment-and-executive-search-firms--33d46cdd|Specialized recruitment and executive search firms]]"
 ---

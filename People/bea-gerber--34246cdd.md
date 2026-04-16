@@ -28,8 +28,9 @@ personas:
 company_icp:
   - "[[ICPs/specialized-recruitment-and-executive-search-firms--33d46cdd|Specialized recruitment and executive search firms]]"
 buying_role: "Decision Maker"
-outreach_sends: []
-next_step: "Draft founder-style discovery outreach focused on manual outbound and sourcing workflow pain."
+outreach_sends:
+  - "[[Outreach Sends/email-draft-bea-gerber-initial-outreach--vault|Email draft — Bea Gerber (initial outreach)]]"
+next_step: "Review and send the linked initial outreach draft."
 conversations: []
 linkedin: "https://ch.linkedin.com/in/bea-gerber-70ab505b"
 name: "Bea Gerber"
@@ -40,3 +41,4 @@ name: "Bea Gerber"
 ## Linked Records
 
 - [[Personas/search-firm-owner--34346cdd|Search Firm Owner]]
+- [[Outreach Sends/email-draft-bea-gerber-initial-outreach--vault|Email draft — Bea Gerber (initial outreach)]]

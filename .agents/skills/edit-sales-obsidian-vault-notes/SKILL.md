@@ -43,6 +43,7 @@ Outbound process (research → message → log): [sales-outreach-playbook](../sa
 ## Update properties (values, not schema)
 
 - **Select / status fields** — Use allowed labels only (see Metadata Menu or the same field on a sibling note). `outreach_wave` for People is **1–5** (integer); repo check fails if missing or out of range. `outreach_status` must be one of the strings in `_schemas/allowlists/person-outreach-status.json` (same order as the Person file class dropdown).
+- **`Outreach Sends`** — YAML **`message:`** must include at least one `[[Outreach Templates/…]]` wikilink (`pnpm run validate:outreach-sends`).
 - **`MultiFile` relations** — YAML list of wikilinks, usually one item per line, e.g. `- "[[Companies/some-slug--id|Label]]"`. Match path + display text style used in sibling notes.
 - **Empty relations** — Use `[]` on one line or omit the key if that matches neighbors (stay consistent within the folder).
 - **ICP “child” docs** — Create the file under `ICPs/<parent-icp-folder>/`. On the **parent ICP**, add the child to `offer_documents` (wikilink list). Optionally mirror links in the note body (“Linked Records”).
