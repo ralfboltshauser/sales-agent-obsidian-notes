@@ -15,6 +15,8 @@ description: Day-to-day work inside this sales-agent Obsidian vault—adding not
 
 Vault map and git hooks: [README.md](../../README.md).
 
+Outbound process (research → message → log): [sales-outreach-playbook](../sales-outreach-playbook/SKILL.md).
+
 ---
 
 ## Plugins to rely on

@@ -110,3 +110,4 @@ Prefer **small, explicit checks** over trying to infer types from file class mar
 ## See also
 
 - [edit-sales-obsidian-vault-notes](../edit-sales-obsidian-vault-notes/SKILL.md) — add or edit individual notes and property values without changing schema or validators.
+- [sales-outreach-playbook](../sales-outreach-playbook/SKILL.md) — daily sales motion, prospecting, qualify, outreach (references live beside that skill).
