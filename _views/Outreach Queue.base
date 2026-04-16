@@ -1,0 +1,70 @@
+filters:
+  and:
+    - file.inFolder("Outreach Sends")
+formulas:
+  sent_ago: 'if(sent_at, sent_at.relative(), "")'
+properties:
+  file.name:
+    displayName: Send
+  file.mtime:
+    displayName: Updated
+  channel:
+    displayName: Channel
+  step:
+    displayName: Step
+  subject:
+    displayName: Subject
+  sent_at:
+    displayName: Sent at
+  formula.sent_ago:
+    displayName: Sent timing
+  template:
+    displayName: Template
+  people:
+    displayName: People
+  thread_url:
+    displayName: Thread / mailto
+  reply_status:
+    displayName: Reply
+views:
+  - type: table
+    name: Ready to send
+    filters:
+      and:
+        - "sent_at == null"
+        - "if(subject, !subject.isEmpty(), false)"
+        - "if(body, !body.isEmpty(), false)"
+    order:
+      - file.name
+      - people
+      - subject
+      - channel
+      - thread_url
+      - template
+      - file.mtime
+  - type: table
+    name: Unsent — still drafting
+    filters:
+      and:
+        - "sent_at == null"
+        - not:
+            - "if(subject, !subject.isEmpty(), false) && if(body, !body.isEmpty(), false)"
+    order:
+      - file.name
+      - people
+      - subject
+      - channel
+      - template
+      - file.mtime
+  - type: table
+    name: Sent log
+    filters: "sent_at != null"
+    order:
+      - file.name
+      - people
+      - subject
+      - sent_at
+      - formula.sent_ago
+      - reply_status
+      - step
+      - file.mtime
