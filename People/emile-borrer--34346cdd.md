@@ -31,7 +31,7 @@ buying_role: "Decision Maker"
 outreach_sends: []
 next_step: ""
 conversations: []
-linkedin: null
+linkedin: "https://www.linkedin.com/in/emileborrer/"
 name: "Emile Borrer"
 ---
 
