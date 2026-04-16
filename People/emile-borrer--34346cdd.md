@@ -28,7 +28,8 @@ personas:
 company_icp:
   - "[[ICPs/specialized-recruitment-and-executive-search-firms--33d46cdd|Specialized recruitment and executive search firms]]"
 buying_role: "Decision Maker"
-outreach_sends: []
+outreach_sends:
+  - "[[Outreach Sends/email-draft-emile-borrer-initial-outreach--vault|Email draft — Emile Borrer (initial outreach)]]"
 next_step: ""
 conversations: []
 linkedin: "https://www.linkedin.com/in/emileborrer/"
@@ -40,3 +41,4 @@ name: "Emile Borrer"
 ## Linked Records
 
 - [[Personas/search-firm-owner--34346cdd|Search Firm Owner]]
+- [[Outreach Sends/email-draft-emile-borrer-initial-outreach--vault|Email draft — Emile Borrer (initial outreach)]]
