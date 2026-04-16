@@ -3,6 +3,11 @@ filters:
     - file.inFolder("Outreach Sends")
 formulas:
   sent_ago: if(sent_at, sent_at.relative(), "")
+  mailto_to: 'if(people && !list(people).isEmpty() && list(people)[0].asFile().hasProperty("email"), list(people)[0].asFile().properties.email, if(thread_url && thread_url.contains("mailto:"), (thread_url.replace("mailto:", "")).split("?", 2)[0], ""))'
+  mailto_subject_enc: 'if(subject, subject.replace(/%/g, "%25").replace(/&/g, "%26").replace(/#/g, "%23").replace(/\?/g, "%3F").replace(/\n/g, "%0A").replace(/\r/g, "").replace(/ /g, "%20"), "")'
+  mailto_body_enc: 'if(body, body.replace(/%/g, "%25").replace(/&/g, "%26").replace(/#/g, "%23").replace(/\?/g, "%3F").replace(/=/g, "%3D").replace(/\n/g, "%0A").replace(/\r/g, "").replace(/ /g, "%20"), "")'
+  mailto_href: 'if(formula.mailto_to, "mailto:" + formula.mailto_to + "?subject=" + formula.mailto_subject_enc + "&body=" + formula.mailto_body_enc, "")'
+  mailto_send: 'if(formula.mailto_href, link(formula.mailto_href, "Send"), "")'
 properties:
   file.name:
     displayName: Send
@@ -20,6 +25,8 @@ properties:
     displayName: Sent at
   formula.sent_ago:
     displayName: Sent timing
+  formula.mailto_send:
+    displayName: Open mail
   template:
     displayName: Template
   people:
@@ -40,6 +47,7 @@ views:
       - file.name
       - people
       - subject
+      - formula.mailto_send
       - body
       - channel
       - thread_url
@@ -60,6 +68,7 @@ views:
       - file.name
       - people
       - subject
+      - formula.mailto_send
       - body
       - channel
       - template
@@ -72,6 +81,7 @@ views:
       - file.name
       - people
       - subject
+      - formula.mailto_send
       - body
       - sent_at
       - formula.sent_ago

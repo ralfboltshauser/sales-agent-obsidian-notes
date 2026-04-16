@@ -23,6 +23,15 @@ Focused on **`Outreach Sends/`** only:
 | **Unsent — still drafting** | `sent_at` empty but subject/body not both filled yet. **Body** column shown (often empty).                                             |
 | **Sent log**                | `sent_at` set. **Body** + **Sent timing** (`sent_at.relative()`) for follow-up spacing.                                                |
 
+### “Open mail” column (`mailto:` formula)
+
+`Outreach Queue.base` defines Bases **formulas** that build a **`mailto:`** link from:
+
+1. **To:** first linked **Person** (`people[0]` → `email` on that note), or else the address from **`thread_url`** when it starts with `mailto:`.
+2. **Subject / body:** from the send’s **`subject`** and **`body`**, with basic percent-encoding (spaces, newlines, `&`, `#`, `?`, `%`, `=`).
+
+The table column **Open mail** is `link(..., "Send")` and should open your default mail app (needs **Obsidian 1.9.3+** where [`link()` supports external URLs](https://obsidian.md/changelog/2025-06-26-desktop-v1-9-3/)). **Limits:** only the **first** person in **`people`**; encoding is **not** full `encodeURIComponent` (unusual Unicode or extra characters may need a manual tweak in the draft). Very long bodies can exceed some clients’ URL limits.
+
 ### Marking a send as sent
 
 **`Outreach Queue`** tables include a **Sent at** column on **Ready to send** and **Unsent — still drafting** so you can set the date from the base.
