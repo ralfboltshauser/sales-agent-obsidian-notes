@@ -1,0 +1,22 @@
+{
+  "name": "sales-agent-obsidian-notes",
+  "private": true,
+  "description": "Obsidian vault for sales-agent notes (synced standalone from parent monorepo path)",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#.git\"",
+    "format": "prettier --write \"**/*.md\"",
+    "format:check": "prettier --check \"**/*.md\"",
+    "check": "pnpm run lint && pnpm run format:check",
+    "fix": "pnpm run format && pnpm run lint"
+  },
+  "lint-staged": {
+    "*.md": ["prettier --write", "markdownlint-cli2 --fix"]
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
+    "markdownlint-cli2": "^0.17.2",
+    "prettier": "^3.5.3"
+  }
+}

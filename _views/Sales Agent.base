@@ -1,0 +1,107 @@
+filters:
+  not:
+    - file.inFolder("_schemas")
+    - file.inFolder("_views")
+properties:
+  file.name:
+    displayName: Note
+  file.folder:
+    displayName: Folder
+  file.mtime:
+    displayName: Updated
+  fileClass:
+    displayName: Class
+  status:
+    displayName: Status
+  priority:
+    displayName: Priority
+  stage:
+    displayName: Stage
+  company_size:
+    displayName: Company Size
+  buying_role:
+    displayName: Buying Role
+  preferred_channel:
+    displayName: Preferred Channel
+  outreach_status:
+    displayName: Outreach Status
+  reply_status:
+    displayName: Reply Status
+  sent_at:
+    displayName: Sent At
+  people:
+    displayName: People
+  companies:
+    displayName: Companies
+  personas:
+    displayName: Personas
+views:
+  - type: table
+    name: ICPs
+    filters: file.inFolder("ICPs")
+    order:
+      - file.name
+      - status
+      - priority
+      - stage
+      - company_size
+      - primary_buyer
+      - companies
+      - personas
+      - file.mtime
+  - type: table
+    name: Companies
+    filters: file.inFolder("Companies")
+    order:
+      - file.name
+      - status
+      - priority
+      - stage
+      - company_size
+      - region
+      - source
+      - people
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: status
+        direction: ASC
+  - type: table
+    name: People
+    filters: file.inFolder("People")
+    order:
+      - file.name
+      - outreach_status
+      - buying_role
+      - department
+      - seniority
+      - preferred_channel
+      - companies
+      - personas
+      - file.mtime
+  - type: table
+    name: Personas
+    filters: file.inFolder("Personas")
+    order:
+      - file.name
+      - buying_role
+      - department
+      - seniority
+      - preferred_channel
+      - people
+      - icps
+      - file.mtime
+  - type: table
+    name: Outreach Sends
+    filters: file.inFolder("Outreach Sends")
+    order:
+      - file.name
+      - channel
+      - step
+      - reply_status
+      - replied
+      - positive_reply
+      - sent_at
+      - people
+      - file.mtime

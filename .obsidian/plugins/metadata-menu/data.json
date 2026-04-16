@@ -1,0 +1,45 @@
+{
+  "presetFields": [],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [
+    "type",
+    "fileClass",
+    "notion_id",
+    "notion_url",
+    "exported_at",
+    "icon"
+  ],
+  "classFilesPath": "_schemas/fileClasses/",
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "fileClass",
+  "firstDayOfWeek": 1,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": true,
+  "enableBacklinks": true,
+  "enableBases": true,
+  "enableMarkdown": true,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "enableProperties": true,
+  "tableViewMaxRecords": 50,
+  "frontmatterListDisplay": "asList",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [
+    ".obsidian"
+  ],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": true,
+  "showFileClassSelectInModal": true,
+  "chooseFileClassAtFileCreation": true,
+  "autoInsertFieldsAtFileClassInsertion": true,
+  "fileClassIcon": "package",
+  "isAutoCalculationEnabled": true,
+  "disableDataviewPrompt": true
+}

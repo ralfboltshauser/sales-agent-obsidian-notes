@@ -1,0 +1,80 @@
+{
+  "lintOnSave": true,
+  "displayChanged": false,
+  "suppressMessageWhenNoChange": true,
+  "recordLintOnSaveLogs": false,
+  "lintOnFileChange": false,
+  "displayLintOnFileChangeNotice": false,
+  "additionalFileExtensions": [],
+  "foldersToIgnore": [
+    ".obsidian"
+  ],
+  "filesToIgnore": [],
+  "linterLocale": "system-default",
+  "logLevel": "ERROR",
+  "lintCommands": [],
+  "customRegexes": [],
+  "commonStyles": {
+    "aliasArrayStyle": "multi-line",
+    "tagArrayStyle": "multi-line",
+    "minimumNumberOfDollarSignsToBeAMathBlock": 2,
+    "escapeCharacter": "\"",
+    "removeUnnecessaryEscapeCharsForMultiLineArrays": false
+  },
+  "ruleConfigs": {
+    "add-blank-line-after-yaml": {
+      "enabled": true
+    },
+    "consecutive-blank-lines": {
+      "enabled": true
+    },
+    "format-yaml-array": {
+      "enabled": true,
+      "formatAliasKey": true,
+      "formatTagKey": true,
+      "defaultArrayStyle": "multi-line",
+      "formatArrayKeys": true,
+      "forceSingleLineArrayStyle": [],
+      "forceMultiLineArrayStyle": [
+        "companies",
+        "personas",
+        "conversations",
+        "people",
+        "icps",
+        "company_icp",
+        "outreach_sends",
+        "outreach_messages",
+        "message",
+        "industry"
+      ]
+    },
+    "line-break-at-document-end": {
+      "enabled": true
+    },
+    "remove-empty-list-markers": {
+      "enabled": true
+    },
+    "trailing-spaces": {
+      "enabled": true,
+      "two-space-line-break": false
+    },
+    "yaml-key-sort": {
+      "enabled": true,
+      "yamlKeyPrioritySortOrder": [
+        "title",
+        "type",
+        "fileClass",
+        "notion_id",
+        "notion_url",
+        "icon",
+        "exported_at",
+        "name",
+        "status",
+        "priority",
+        "stage"
+      ],
+      "priorityKeysAtStartOfYaml": true,
+      "yamlSortOrderForOtherKeys": "Ascending Alphabetical"
+    }
+  }
+}

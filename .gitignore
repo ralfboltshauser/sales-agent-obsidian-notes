@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+
+# Machine-local Obsidian UI state (optional sync; reduces merge noise)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Logs / caches
+*.log
+.npm-debug.log*
+pnpm-debug.log*
