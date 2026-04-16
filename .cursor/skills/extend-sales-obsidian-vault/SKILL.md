@@ -102,3 +102,9 @@ Prefer **small, explicit checks** over trying to infer types from file class mar
 - **Sidecar JSON** for fields that already live in YAML—this vault keeps waves and properties in note frontmatter unless you explicitly design otherwise.
 - **Skipping Linter keys** for new wikilink arrays—produces noisy one-line YAML and harder reviews.
 - **Relying only on Metadata Menu** for critical invariants—if git must stay green, add a script + `check`.
+
+---
+
+## See also
+
+- [edit-sales-obsidian-vault-notes](../edit-sales-obsidian-vault-notes/SKILL.md) — add or edit individual notes and property values without changing schema or validators.
