@@ -71,7 +71,7 @@ If a new key should sort near the top of YAML, extend `yaml-key-sort.yamlKeyPrio
 
 **People `outreach_status`:** ordered allowlist in `_schemas/allowlists/person-outreach-status.json`, enforced by `scripts/person-outreach-status.mjs` (`pnpm run validate:outreach-status`). When adding or renaming a status, update **that JSON**, the **`Person` file class `valuesList` (same order)**, then run `pnpm run check`.
 
-**`Outreach Sends` `template`:** each send must wikilink at least one note under **`Outreach Templates/`** in YAML `template:`—enforced by `scripts/outreach-send-template.mjs` (`pnpm run validate:outreach-sends`).
+**`Outreach Sends` `template`:** each send must wikilink at least one note under **`Outreach Templates/`** in YAML `template:`—enforced by `scripts/outreach-send-template.mjs` (`pnpm run validate:outreach-sends`). Optional **`subject`** / **`body`** hold the final text for that send (see `OutreachSend` file class).
 
 ---
 

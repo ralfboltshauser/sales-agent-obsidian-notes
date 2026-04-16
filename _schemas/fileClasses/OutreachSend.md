@@ -50,6 +50,14 @@ fields:
     id: outreach-send-template
     type: MultiFile
     options: {}
+  - name: subject
+    id: outreach-send-subject
+    type: Input
+    options: {}
+  - name: body
+    id: outreach-send-body
+    type: Input
+    options: {}
   - name: thread_url
     id: outreach-send-thread-url
     type: Input
@@ -60,4 +68,6 @@ fields:
 
 FileClass for exported outreach send notes.
 
-**`template`:** must include at least one wikilink under **`Outreach Templates/`** (canonical template used for this send). Enforced by `pnpm run validate:outreach-sends`.
+**`template`:** must include at least one wikilink under **`Outreach Templates/`** (canonical pattern with `{{placeholders}}`). Enforced by `pnpm run validate:outreach-sends`.
+
+**`subject`** (optional) and **`body`** (optional): the **concrete copy for this send**—what you paste into the client (email subject line and message body). For **`channel: Email`**, fill these when the draft is ready; leave empty while still iterating. The linked template is the source pattern, not the per-recipient final text.

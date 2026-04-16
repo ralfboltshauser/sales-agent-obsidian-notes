@@ -6,17 +6,17 @@ This vault is **git-backed**, lives **only in this folder** (not the parent `sal
 
 ## Folder map
 
-| Folder                  | Role                                           | `fileClass` (Metadata Menu) |
-| ----------------------- | ---------------------------------------------- | --------------------------- |
-| `People/`               | Contacts                                       | `Person`                    |
-| `Companies/`            | Accounts                                       | `Company`                   |
-| `Personas/`             | Buyer archetypes                               | `Persona`                   |
-| `ICPs/`                 | ICP notes; can use subfolders for “child” docs | `ICP`                       |
-| `Outreach Sends/`       | Sent threads / sends                           | `OutreachSend`              |
-| `Outreach Templates/`   | Reusable copy (linked from personas / sends)   | `OutreachTemplate`          |
-| `_schemas/fileClasses/` | **Source of truth** for property definitions   | —                           |
-| `_views/`               | Bases (e.g. `Sales Agent.base`)                | —                           |
-| `scripts/`              | Repo validators (e.g. People `outreach_wave`)  | —                           |
+| Folder                  | Role                                                      | `fileClass` (Metadata Menu) |
+| ----------------------- | --------------------------------------------------------- | --------------------------- |
+| `People/`               | Contacts                                                  | `Person`                    |
+| `Companies/`            | Accounts                                                  | `Company`                   |
+| `Personas/`             | Buyer archetypes                                          | `Persona`                   |
+| `ICPs/`                 | ICP notes; can use subfolders for “child” docs            | `ICP`                       |
+| `Outreach Sends/`       | Sends / threads; `template` + optional `subject` / `body` | `OutreachSend`              |
+| `Outreach Templates/`   | Reusable copy (linked from personas / sends)              | `OutreachTemplate`          |
+| `_schemas/fileClasses/` | **Source of truth** for property definitions              | —                           |
+| `_views/`               | Bases (e.g. `Sales Agent.base`)                           | —                           |
+| `scripts/`              | Repo validators (e.g. People `outreach_wave`)             | —                           |
 
 `INDEX.md` is the human entry point. Optional **child pages** under an ICP live in a subfolder, e.g. `ICPs/<icp-slug--id>/…` with wikilinks + `offer_documents` on the parent ICP.
 

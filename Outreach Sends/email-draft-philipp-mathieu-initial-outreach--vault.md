@@ -14,6 +14,20 @@ people:
 responded_at: null
 template:
   - "[[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]"
+subject: "Viavanta — hypothesis on partner BD prep (happy to be wrong)"
+body: |-
+  Hi Philipp,
+
+  I work with retained executive-search teams on the unglamorous part of winning mandates: the account context, outreach prep, and follow-up discipline that usually eats partner hours.
+
+  Hypothesis I wanted to test with you: at Viavanta, the bottleneck isn’t “more leads”, it’s keeping partner-led BD high-signal while you stretch across executive search, board advisory, direct search, and market intelligence—without turning client touchpoints into something that feels templated.
+
+  If that’s directionally right, I’d love 20 minutes next week to compare notes and learn how you think about trust, positioning, and repeat mandates. If it’s wrong, a one-line reply saves us both time.
+
+  Either way, thanks for building a serious retained practice—the breadth of what Viavanta covers is exactly where generic outbound starts to feel reputation-risky for managing partners.
+
+  [YOUR NAME]
+  [YOUR CALENDAR OR REPLY LINE]
 step: "Initial Outreach"
 reply_status: "No Reply Yet"
 positive_reply: false
@@ -29,19 +43,6 @@ name: "Email draft — Philipp Mathieu (initial outreach)"
 - [[People/philipp-mathieu--34346cdd|Philipp Mathieu]]
 - [[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]
 
-## Draft body (ready to paste)
+## Message
 
-**Subject:** Viavanta — hypothesis on partner BD prep (happy to be wrong)
-
-Hi Philipp,
-
-I work with retained executive-search teams on the unglamorous part of winning mandates: the account context, outreach prep, and follow-up discipline that usually eats partner hours.
-
-Hypothesis I wanted to test with you: at Viavanta, the bottleneck isn’t “more leads”, it’s keeping partner-led BD high-signal while you stretch across executive search, board advisory, direct search, and market intelligence—without turning client touchpoints into something that feels templated.
-
-If that’s directionally right, I’d love 20 minutes next week to compare notes and learn how you think about trust, positioning, and repeat mandates. If it’s wrong, a one-line reply saves us both time.
-
-Either way, thanks for building a serious retained practice—the breadth of what Viavanta covers is exactly where generic outbound starts to feel reputation-risky for managing partners.
-
-[YOUR NAME]
-[YOUR CALENDAR OR REPLY LINE]
+Sendable copy lives in **Properties** → **`subject`** and **`body`**. **`template`** links the canonical pattern with `{{placeholders}}`.

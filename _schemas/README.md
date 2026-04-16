@@ -14,6 +14,6 @@ This folder contains the Obsidian-side schema layer for the Notion export.
 
 `pnpm run validate:outreach-status` checks `outreach_status` matches the ordered list in `_schemas/allowlists/person-outreach-status.json` (must match the `Person` file class select options).
 
-`pnpm run validate:outreach-sends` checks every `Outreach Sends/*.md` has `template:` linking at least one `Outreach Templates/` note.
+`pnpm run validate:outreach-sends` checks every `Outreach Sends/*.md` has `template:` linking at least one `Outreach Templates/` note. Sendable copy is optional YAML **`subject`** / **`body`** on each send (see `OutreachSend` file class).
 
 Vault layout, hooks, and workflows: [[README|Vault README]].

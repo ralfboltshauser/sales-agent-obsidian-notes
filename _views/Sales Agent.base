@@ -33,6 +33,10 @@ properties:
     displayName: Sent At
   template:
     displayName: Template
+  subject:
+    displayName: Subject
+  body:
+    displayName: Body
   people:
     displayName: People
   companies:
@@ -112,5 +116,6 @@ views:
       - positive_reply
       - sent_at
       - template
+      - subject
       - people
       - file.mtime

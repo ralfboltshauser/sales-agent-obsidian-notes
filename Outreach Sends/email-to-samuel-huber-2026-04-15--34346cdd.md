@@ -14,6 +14,8 @@ people:
 responded_at: null
 template:
   - "[[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]"
+subject: null
+body: null
 step: "Initial Outreach"
 reply_status: "No Reply Yet"
 positive_reply: false
@@ -28,3 +30,7 @@ name: "Email to Samuel Huber - 2026-04-15"
 
 - [[People/samuel-huber--34346cdd|Samuel Huber]]
 - [[Outreach Templates/initial-outreach-email-search-firm-owner--vault|Initial outreach email — Search Firm Owner]]
+
+## Message
+
+**`subject`** / **`body`** were not captured in this export. Add them in **Properties** if you want the vault to hold the exact text that went out.
