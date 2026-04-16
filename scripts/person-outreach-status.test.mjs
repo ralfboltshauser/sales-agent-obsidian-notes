@@ -10,8 +10,9 @@ const { outreach_status: ORDER } = JSON.parse(readFileSync(allowPath, "utf8"));
 
 test("outreach_status allowlist: ordered funnel head matches Person workflow", () => {
   assert.equal(ORDER[0], "To Research");
-  assert.equal(ORDER[1], "To Contact");
-  assert.equal(ORDER[2], "Contacted");
+  assert.equal(ORDER[1], "Unqualified");
+  assert.equal(ORDER[2], "To Contact");
+  assert.equal(ORDER[3], "Contacted");
 });
 
 test("outreach_status allowlist: no duplicates (validator set semantics)", () => {
@@ -19,6 +20,7 @@ test("outreach_status allowlist: no duplicates (validator set semantics)", () =>
 });
 
 test("outreach_status allowlist: includes terminal states", () => {
+  assert(ORDER.includes("Unqualified"));
   assert(ORDER.includes("Not interested"));
   assert(ORDER.includes("Do not contact"));
 });

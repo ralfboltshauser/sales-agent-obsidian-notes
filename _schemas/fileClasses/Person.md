@@ -16,6 +16,7 @@ fields:
       sourceType: ValuesList
       valuesList:
         To Research: To Research
+        Unqualified: Unqualified
         To Contact: To Contact
         Contacted: Contacted
         Follow-up due: Follow-up due

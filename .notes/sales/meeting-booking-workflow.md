@@ -37,3 +37,5 @@ flowchart TB
 ## Tweak later
 
 Define “needs outreach” and queue order using your fields and Bases. Typical queue: `outreach_status` in **`To Contact`** or **`Follow-up due`**, plus `next_step_date` and `Outreach Sends` for context.
+
+Full transitions: [[person-outreach-state-machine|Person outreach state machine]].

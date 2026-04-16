@@ -4,6 +4,7 @@
   "description": "Order is the canonical pipeline order for dropdowns and docs. Keep _schemas/fileClasses/Person.md valuesList in the same order and with the same strings.",
   "outreach_status": [
     "To Research",
+    "Unqualified",
     "To Contact",
     "Contacted",
     "Follow-up due",
