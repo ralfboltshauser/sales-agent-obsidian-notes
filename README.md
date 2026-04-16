@@ -92,5 +92,6 @@ Use this when you add fields, rename selects, or introduce new relation arrays.
 ## Quick reference
 
 - **Schema index:** `_schemas/README.md`
+- **Cursor (agent) skill — extend schema / linting:** `.cursor/skills/extend-sales-obsidian-vault/SKILL.md`
 - **Outreach template ↔ Notion “Outreach Messages” mapping:** footer of `_schemas/fileClasses/OutreachTemplate.md`
 - **Remote:** standalone GitHub repo for this directory only; `pnpm` + Husky are for **local + CI-free** quality gates.
