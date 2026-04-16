@@ -11,4 +11,4 @@ This folder contains the Obsidian-side schema layer for the Notion export.
 
 `pnpm run validate:people` checks every `People/*.md` has `outreach_wave: 1`–`5` in YAML frontmatter (edit the note in Obsidian; no separate config file).
 
-Vault layout, hooks, and workflows: [[.notes/vault/README|Vault README]].
+Vault layout, hooks, and workflows: [[README|Vault README]].
