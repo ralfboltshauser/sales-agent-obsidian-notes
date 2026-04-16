@@ -28,7 +28,6 @@ pain_signals: "Swiss boutique executive search consultancy focused on key execut
 offer_angle: "AI sales agent for search partners: account research, buyer mapping, outreach support, and follow-up execution to help generate more retained board and executive search mandates."
 industry:
   - "Professional Services"
-conversations: []
 name: "Knight Gianella"
 ---
 

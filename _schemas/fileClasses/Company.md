@@ -72,16 +72,35 @@ fields:
     id: company-next-step
     type: Input
     options: {}
+  - name: outcome
+    id: company-outcome
+    type: Input
+    options: {}
+  - name: estimated_mrr
+    id: company-estimated-mrr
+    type: Number
+    options: {}
+  - name: pain_signals
+    id: company-pain-signals
+    type: Input
+    options: {}
+  - name: offer_angle
+    id: company-offer-angle
+    type: Input
+    options: {}
+  - name: industry
+    id: company-industry
+    type: Multi
+    options:
+      sourceType: ValuesList
+      valuesList:
+        Professional Services: Professional Services
   - name: people
     id: company-people
     type: MultiFile
     options: {}
   - name: icps
     id: company-icps
-    type: MultiFile
-    options: {}
-  - name: conversations
-    id: company-conversations
     type: MultiFile
     options: {}
 ---

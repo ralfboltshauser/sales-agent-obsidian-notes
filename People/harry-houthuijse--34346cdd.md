@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Decision Maker"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: null
 name: "Harry Houthuijse"
 ---

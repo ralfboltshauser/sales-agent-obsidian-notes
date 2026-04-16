@@ -30,7 +30,6 @@ pain_signals: "Basel-based boutique retained executive search firm with long tra
 offer_angle: "AI sales agent for retained search firms: account intelligence, trigger detection, outreach support, and follow-up tracking for higher-quality mandate generation."
 industry:
   - "Professional Services"
-conversations: []
 name: "Key Search"
 ---
 

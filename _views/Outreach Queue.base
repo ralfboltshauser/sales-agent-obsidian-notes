@@ -3,6 +3,7 @@ filters:
     - file.inFolder("Outreach Sends")
 formulas:
   sent_ago: if(sent_at, sent_at.relative(), "")
+  responded_ago: if(responded_at, responded_at.relative(), "")
   mailto_to: 'if(people && !list(people).isEmpty() && list(people)[0].asFile().hasProperty("email"), list(people)[0].asFile().properties.email, if(thread_url && thread_url.contains("mailto:"), (thread_url.replace("mailto:", "")).split("?", 2)[0], ""))'
   mailto_subject_enc: 'if(subject, subject.replace(/%/g, "%25").replace(/&/g, "%26").replace(/#/g, "%23").replace(/\?/g, "%3F").replace(/\n/g, "%0A").replace(/\r/g, "").replace(/ /g, "%20"), "")'
   mailto_body_enc: 'if(body, body.replace(/%/g, "%25").replace(/&/g, "%26").replace(/#/g, "%23").replace(/\?/g, "%3F").replace(/=/g, "%3D").replace(/\n/g, "%0A").replace(/\r/g, "").replace(/ /g, "%20"), "")'
@@ -23,8 +24,12 @@ properties:
     displayName: Body
   sent_at:
     displayName: Sent at
+  responded_at:
+    displayName: Responded at
   formula.sent_ago:
     displayName: Sent timing
+  formula.responded_ago:
+    displayName: Reply timing
   formula.mailto_send:
     displayName: Open mail
   template:
@@ -33,8 +38,6 @@ properties:
     displayName: People
   thread_url:
     displayName: Thread / mailto
-  reply_status:
-    displayName: Reply
 views:
   - type: table
     name: Ready to send
@@ -85,6 +88,7 @@ views:
       - body
       - sent_at
       - formula.sent_ago
-      - reply_status
+      - responded_at
+      - formula.responded_ago
       - step
       - file.mtime

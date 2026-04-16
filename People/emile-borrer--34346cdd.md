@@ -31,7 +31,6 @@ buying_role: "Decision Maker"
 outreach_sends:
   - "[[Outreach Sends/email-draft-emile-borrer-initial-outreach--vault|Email draft — Emile Borrer (initial outreach)]]"
 next_step: ""
-conversations: []
 linkedin: "https://www.linkedin.com/in/emileborrer/"
 name: "Emile Borrer"
 ---

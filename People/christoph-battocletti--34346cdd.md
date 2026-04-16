@@ -31,7 +31,6 @@ buying_role: "Decision Maker"
 outreach_sends:
   - "[[Outreach Sends/email-draft-christoph-battocletti-initial-outreach--vault|Email draft — Christoph Battocletti (initial outreach)]]"
 next_step: "Review and send the linked initial outreach draft."
-conversations: []
 linkedin: "https://www.linkedin.com/in/christoph-battocletti/"
 name: "Christoph Battocletti"
 ---

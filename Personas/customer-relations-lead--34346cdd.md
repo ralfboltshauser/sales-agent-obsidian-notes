@@ -6,7 +6,6 @@ notion_id: "34346cdd8a7981dea7c0c214b43587d1"
 notion_url: "https://www.notion.so/Customer-Relations-Lead-34346cdd8a7981dea7c0c214b43587d1"
 icon: null
 exported_at: "2026-04-16T09:27:53.669Z"
-conversations: []
 value_angle: "Use AI to support account research, follow-up tracking, and client-update drafting while keeping communication personal and high quality."
 buying_role: "Champion"
 desired_outcomes: "Faster client response times, stronger retention, more repeat mandates, and smoother commercial coordination without making communication feel generic."

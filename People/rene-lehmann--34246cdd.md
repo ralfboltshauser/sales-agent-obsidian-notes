@@ -30,7 +30,6 @@ company_icp:
 buying_role: "User"
 outreach_sends: []
 next_step: "Use for workflow discovery interview about sourcing, research, and personalized outreach pain."
-conversations: []
 linkedin: "https://www.linkedin.com/in/rene-lehmann/"
 name: "René Lehmann"
 ---

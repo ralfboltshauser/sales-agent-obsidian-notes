@@ -31,7 +31,6 @@ buying_role: "Champion"
 outreach_sends:
   - "[[Outreach Sends/email-to-samuel-huber-2026-04-15--34346cdd|Email to Samuel Huber - 2026-04-15]]"
 next_step: "Wait for reply or follow up by phone on Monday if no response."
-conversations: []
 linkedin: "https://www.linkedin.com/in/samuel-huber-167254185/"
 name: "Samuel Huber"
 ---

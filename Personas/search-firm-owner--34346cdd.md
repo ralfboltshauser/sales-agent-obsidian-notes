@@ -6,7 +6,6 @@ notion_id: "34346cdd8a7981bdb309c59bb0499113"
 notion_url: "https://www.notion.so/Search-Firm-Owner-34346cdd8a7981bdb309c59bb0499113"
 icon: null
 exported_at: "2026-04-16T09:27:53.677Z"
-conversations: []
 value_angle: "Help partners win more retained search mandates by turning manual account research, outreach prep, and follow-up into a repeatable high-quality business-development workflow."
 buying_role: "Decision Maker"
 desired_outcomes: "More retained search mandates, stronger pipeline quality, better partner leverage, and a repeatable business-development motion."

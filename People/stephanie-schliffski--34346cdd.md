@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Influencer"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: "https://www.linkedin.com/in/stephanie-schliffski-723383/"
 name: "Stephanie Schliffski"
 ---

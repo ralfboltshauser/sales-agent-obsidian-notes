@@ -31,7 +31,6 @@ pain_signals: "Swiss executive-search boutique with a publicly visible partner b
 offer_angle: "AI workflow support for boutique executive search: search research, outreach prep, follow-up management, and search-status coordination."
 industry:
   - "Professional Services"
-conversations: []
 name: "Borrer Executive Search"
 ---
 

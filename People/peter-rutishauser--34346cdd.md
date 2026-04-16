@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Decision Maker"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: "https://www.linkedin.com/in/peter-rutishauser-59b25113/"
 name: "Peter Rutishauser"
 ---

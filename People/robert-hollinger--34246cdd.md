@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Influencer"
 outreach_sends: []
 next_step: "Use as secondary validation contact after speaking with owner or sourcing lead."
-conversations: []
 linkedin: "https://www.linkedin.com/in/robert-hollinger-31a99713b/"
 name: "Robert Hollinger"
 ---

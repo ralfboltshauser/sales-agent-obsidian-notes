@@ -28,7 +28,6 @@ pain_signals: "Swiss boutique executive search and recruitment firm in Geneva. L
 offer_angle: "AI sales agent for executive search firms: target-account research, buyer mapping, outreach drafting, follow-up tracking, and CRM discipline to help win more retained search mandates."
 industry:
   - "Professional Services"
-conversations: []
 name: "Headtohead"
 ---
 

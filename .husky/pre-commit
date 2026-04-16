@@ -4,3 +4,4 @@ pnpm exec lint-staged
 pnpm run validate:people
 pnpm run validate:outreach-status
 pnpm run validate:outreach-sends
+pnpm run validate:outreach-send-fields

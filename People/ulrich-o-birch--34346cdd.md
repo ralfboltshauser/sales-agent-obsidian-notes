@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Influencer"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: "https://www.linkedin.com/in/ulrich-o-birch/"
 name: "Ulrich O. Birch"
 ---

@@ -65,6 +65,22 @@ fields:
       sourceType: ValuesList
       valuesList:
         Agency/Service: Agency/Service
+  - name: core_pain
+    id: icp-core-pain
+    type: Input
+    options: {}
+  - name: trigger_why_now
+    id: icp-trigger-why-now
+    type: Input
+    options: {}
+  - name: offer_hypothesis
+    id: icp-offer-hypothesis
+    type: Input
+    options: {}
+  - name: notes
+    id: icp-notes
+    type: Input
+    options: {}
   - name: industry
     id: icp-industry
     type: Multi
@@ -78,10 +94,6 @@ fields:
     options: {}
   - name: personas
     id: icp-personas
-    type: MultiFile
-    options: {}
-  - name: conversations
-    id: icp-conversations
     type: MultiFile
     options: {}
   - name: offer_documents

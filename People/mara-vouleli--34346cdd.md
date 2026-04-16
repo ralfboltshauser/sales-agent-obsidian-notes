@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Influencer"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: "https://ch.linkedin.com/in/mara-vouleli"
 name: "Mara Vouleli"
 ---

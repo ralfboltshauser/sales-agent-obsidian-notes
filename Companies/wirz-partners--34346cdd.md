@@ -31,7 +31,6 @@ pain_signals: "Swiss boutique executive search firm with board and C-level focus
 offer_angle: "AI workflow assistant for executive search firms: account research, mandate-generation support, follow-up tracking, and client/candidate update coordination."
 industry:
   - "Professional Services"
-conversations: []
 name: "Wirz & Partners"
 ---
 

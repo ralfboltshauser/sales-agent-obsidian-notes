@@ -30,7 +30,6 @@ pain_signals: "Swiss partner-managed executive search firm focused on senior man
 offer_angle: "AI support for search-firm business development and delivery: research, hiring-signal detection, outreach drafting, and workflow coordination across mandates."
 industry:
   - "Professional Services"
-conversations: []
 name: "Robertson Associates"
 ---
 

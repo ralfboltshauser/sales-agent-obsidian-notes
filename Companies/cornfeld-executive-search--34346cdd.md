@@ -29,7 +29,6 @@ pain_signals: "Independent Zurich executive search boutique with stable track re
 offer_angle: "AI sales agent for owner-led search boutiques: target-account research, mandate-oriented outreach support, and follow-up systems that preserve quality while improving commercial consistency."
 industry:
   - "Professional Services"
-conversations: []
 name: "CORNFELD Executive Search"
 ---
 

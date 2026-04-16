@@ -19,21 +19,6 @@ fields:
       sourceType: ValuesList
       valuesList:
         Initial Outreach: Initial Outreach
-  - name: reply_status
-    id: outreach-send-reply-status
-    type: Select
-    options:
-      sourceType: ValuesList
-      valuesList:
-        No Reply Yet: No Reply Yet
-  - name: replied
-    id: outreach-send-replied
-    type: Boolean
-    options: {}
-  - name: positive_reply
-    id: outreach-send-positive-reply
-    type: Boolean
-    options: {}
   - name: sent_at
     id: outreach-send-sent-at
     type: Date
@@ -62,6 +47,10 @@ fields:
     id: outreach-send-thread-url
     type: Input
     options: {}
+  - name: notes
+    id: outreach-send-notes
+    type: Input
+    options: {}
 ---
 
 # OutreachSend
@@ -71,5 +60,7 @@ FileClass for exported outreach send notes.
 **`template`:** must include at least one wikilink under **`Outreach Templates/`** (canonical pattern with `{{placeholders}}`). Enforced by `pnpm run validate:outreach-sends`.
 
 **`subject`** (optional) and **`body`** (optional): the **concrete copy for this send**—what you paste into the client (email subject line and message body). For **`channel: Email`**, fill these when the draft is ready; leave empty while still iterating. The linked template is the source pattern, not the per-recipient final text.
+
+**Sent / reply (DRY):** use **`sent_at`** for when the message went out (`null` = not sent). Use **`responded_at`** for when a reply was logged (`null` = no reply yet). Do not add parallel booleans or a duplicate “reply status” select; see [[.notes/sales/outreach-send-and-reply-fields|Outreach send — sent and reply fields]].
 
 **Buttons + `sent_at`:** see **`_views/Outreach Queue dashboard`** and the **Quick actions** section on send notes (`Templates/outreach/mark-sent-at-today.md` + **Templater** template hotkey).

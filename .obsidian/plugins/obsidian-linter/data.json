@@ -36,7 +36,6 @@
       "forceMultiLineArrayStyle": [
         "companies",
         "personas",
-        "conversations",
         "people",
         "icps",
         "company_icp",

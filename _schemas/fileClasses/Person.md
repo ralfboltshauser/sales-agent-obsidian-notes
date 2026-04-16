@@ -105,6 +105,26 @@ fields:
     id: person-next-step-date
     type: Date
     options: {}
+  - name: next_step
+    id: person-next-step
+    type: Input
+    options: {}
+  - name: location
+    id: person-location
+    type: Input
+    options: {}
+  - name: personalization_hooks
+    id: person-personalization-hooks
+    type: Input
+    options: {}
+  - name: pain_context
+    id: person-pain-context
+    type: Input
+    options: {}
+  - name: notes
+    id: person-notes
+    type: Input
+    options: {}
   - name: companies
     id: person-companies
     type: MultiFile
@@ -119,10 +139,6 @@ fields:
     options: {}
   - name: company_icp
     id: person-company-icp
-    type: MultiFile
-    options: {}
-  - name: conversations
-    id: person-conversations
     type: MultiFile
     options: {}
 ---

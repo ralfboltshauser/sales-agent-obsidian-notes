@@ -29,9 +29,6 @@ body: |-
   [YOUR NAME]
   [YOUR CALENDAR OR REPLY LINE]
 step: "Initial Outreach"
-reply_status: "No Reply Yet"
-positive_reply: false
-replied: false
 sent_at: null
 name: "Email draft — Christoph Battocletti (initial outreach)"
 ---

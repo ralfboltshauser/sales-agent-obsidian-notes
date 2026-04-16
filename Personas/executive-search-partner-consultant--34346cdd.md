@@ -6,7 +6,6 @@ notion_id: "34346cdd8a798149aa54d8c8ef1b19d1"
 notion_url: "https://www.notion.so/Executive-Search-Partner-Consultant-34346cdd8a798149aa54d8c8ef1b19d1"
 icon: null
 exported_at: "2026-04-16T09:27:53.671Z"
-conversations: []
 value_angle: "Support partner-level sellers with better account context, outreach drafting, and follow-up execution so they spend more time in high-value client conversations."
 buying_role: "Influencer"
 desired_outcomes: "More relevant first-touch outreach, stronger follow-up discipline, and more leverage while balancing client development with active mandates."

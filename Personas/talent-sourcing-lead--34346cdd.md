@@ -6,7 +6,6 @@ notion_id: "34346cdd8a798133a1c1cdcee60eb041"
 notion_url: "https://www.notion.so/Talent-Sourcing-Lead-34346cdd8a798133a1c1cdcee60eb041"
 icon: null
 exported_at: "2026-04-16T09:27:53.678Z"
-conversations: []
 value_angle: "Reduce manual sourcing and research load while improving signal quality and personalization readiness for the commercial team."
 buying_role: "User"
 desired_outcomes: "Less repetitive research work, faster opportunity and candidate mapping, and better inputs for partner-led outreach and search delivery."

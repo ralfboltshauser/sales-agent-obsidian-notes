@@ -6,7 +6,6 @@ notion_id: "34346cdd8a7981b0a1f4d85d66e828e9"
 notion_url: "https://www.notion.so/Search-Operations-Lead-34346cdd8a7981b0a1f4d85d66e828e9"
 icon: null
 exported_at: "2026-04-16T09:27:53.677Z"
-conversations: []
 value_angle: "Use AI to support search coordination, follow-up management, project updates, and execution visibility without reducing relationship quality or control."
 buying_role: "Influencer"
 desired_outcomes: "Faster, more reliable search execution, better visibility across mandates, and less coordination overhead after commercial interest exists."

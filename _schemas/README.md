@@ -16,4 +16,6 @@ This folder contains the Obsidian-side schema layer for the Notion export.
 
 `pnpm run validate:outreach-sends` checks every `Outreach Sends/*.md` has `template:` linking at least one `Outreach Templates/` note. Sendable copy is optional YAML **`subject`** / **`body`** on each send (see `OutreachSend` file class).
 
+`pnpm run validate:outreach-send-fields` rejects legacy reply keys and validates **`sent_at`** / **`responded_at`** shapes (`scripts/outreach-send-fields.mjs`). Canonical rules: [[.notes/sales/outreach-send-and-reply-fields|Outreach send — sent and reply fields]].
+
 Vault layout, hooks, and workflows: [[README|Vault README]].

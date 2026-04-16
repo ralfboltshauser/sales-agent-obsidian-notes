@@ -30,7 +30,6 @@ company_icp:
 buying_role: "User"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: null
 name: "René Lehmann"
 ---

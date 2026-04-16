@@ -11,7 +11,7 @@
 ## On reply
 
 - Move **`outreach_status`** toward **`Replied`** / **`Awaiting reply`** / **`Follow-up due`** per [person-outreach-state-machine](../../../.notes/sales/person-outreach-state-machine.md).
-- Update **`Outreach Sends`** — `replied`, `reply_status`, `responded_at` when those exist.
+- Update **`Outreach Sends`** — set **`responded_at`** when you log a reply (see [[.notes/sales/outreach-send-and-reply-fields|Outreach send — sent and reply fields]]). Do not add `replied` / `reply_status` / `positive_reply`; the repo validator rejects them.
 
 ## On meeting booked / held
 

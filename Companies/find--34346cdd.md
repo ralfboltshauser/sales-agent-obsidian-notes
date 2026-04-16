@@ -29,7 +29,6 @@ pain_signals: "Publicly positions itself as a performance recruiting firm using 
 offer_angle: "AI workflow assistant for search firms: account research, personalized outreach support, follow-up tracking, client-update drafting, and coordination across recruiting workflows."
 industry:
   - "Professional Services"
-conversations: []
 name: "FIND"
 ---
 

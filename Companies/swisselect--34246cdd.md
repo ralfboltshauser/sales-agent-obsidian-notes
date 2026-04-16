@@ -35,7 +35,6 @@ pain_signals: "Executive search firm with dedicated talent sourcing, active sour
 offer_angle: "Help search consultants identify hiring signals, map the right buyer, and send highly relevant outreach with consistent follow-up so more retained search conversations get started."
 industry:
   - "Professional Services"
-conversations: []
 name: "swisselect"
 ---
 

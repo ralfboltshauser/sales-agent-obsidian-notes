@@ -31,7 +31,6 @@ buying_role: "Decision Maker"
 outreach_sends:
   - "[[Outreach Sends/email-draft-bea-gerber-initial-outreach--vault|Email draft — Bea Gerber (initial outreach)]]"
 next_step: "Review and send the linked initial outreach draft."
-conversations: []
 linkedin: "https://ch.linkedin.com/in/bea-gerber-70ab505b"
 name: "Bea Gerber"
 ---

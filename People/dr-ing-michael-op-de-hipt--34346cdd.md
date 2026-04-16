@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Influencer"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: "https://www.linkedin.com/in/dr-ing-michael-op-de-hipt-executive-search-interim-provider/"
 name: "Dr.-Ing. Michael Op de Hipt"
 ---

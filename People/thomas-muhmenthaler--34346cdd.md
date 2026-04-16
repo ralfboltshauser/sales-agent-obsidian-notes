@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Decision Maker"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: "https://www.linkedin.com/in/thomas-muhmenthaler-4507b112/"
 name: "Thomas Muhmenthaler"
 ---

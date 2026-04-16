@@ -17,9 +17,6 @@ template:
 subject: null
 body: null
 step: "Initial Outreach"
-reply_status: "No Reply Yet"
-positive_reply: false
-replied: false
 sent_at: "2026-04-15"
 name: "Email to Samuel Huber - 2026-04-15"
 ---

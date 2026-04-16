@@ -30,7 +30,6 @@ company_icp:
 buying_role: "Decision Maker"
 outreach_sends: []
 next_step: ""
-conversations: []
 linkedin: "https://ch.linkedin.com/in/daniel-burkhalter-7627191a/en"
 name: "Daniel Burkhalter"
 ---

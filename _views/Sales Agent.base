@@ -27,10 +27,10 @@ properties:
     displayName: Outreach Status
   outreach_wave:
     displayName: Outreach Wave
-  reply_status:
-    displayName: Reply Status
   sent_at:
     displayName: Sent At
+  responded_at:
+    displayName: Responded At
   template:
     displayName: Template
   subject:
@@ -111,10 +111,8 @@ views:
       - file.name
       - channel
       - step
-      - reply_status
-      - replied
-      - positive_reply
       - sent_at
+      - responded_at
       - template
       - subject
       - people

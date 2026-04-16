@@ -5,6 +5,22 @@ fields:
     id: persona-name
     type: Input
     options: {}
+  - name: value_angle
+    id: persona-value-angle
+    type: Input
+    options: {}
+  - name: desired_outcomes
+    id: persona-desired-outcomes
+    type: Input
+    options: {}
+  - name: core_pains
+    id: persona-core-pains
+    type: Input
+    options: {}
+  - name: notes
+    id: persona-notes
+    type: Input
+    options: {}
   - name: buying_role
     id: persona-buying-role
     type: Select
@@ -50,10 +66,6 @@ fields:
     options: {}
   - name: outreach_messages
     id: persona-outreach-messages
-    type: MultiFile
-    options: {}
-  - name: conversations
-    id: persona-conversations
     type: MultiFile
     options: {}
 ---

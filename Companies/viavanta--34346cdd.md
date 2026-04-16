@@ -31,7 +31,6 @@ pain_signals: "Swiss boutique executive search and leadership advisory firm with
 offer_angle: "AI sales agent for executive search boutiques: buyer research, mandate-opportunity mapping, outreach drafting, and follow-up systems that improve partner leverage."
 industry:
   - "Professional Services"
-conversations: []
 name: "Viavanta"
 ---
 
