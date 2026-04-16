@@ -15,6 +15,8 @@ Starter Obsidian Bases for the exported sales vault live here.
 
 Focused on **`Outreach Sends/`** only:
 
+**You cannot put [Buttons](https://github.com/shabegom/buttons) blocks inside a `.base` file** (Bases are YAML, not Markdown). Use **`_views/Outreach Queue dashboard`** instead: it **embeds** this base (`![[Outreach Queue.base#…]]`) and hosts the **parent** “Mark sent · today” button. Each send note’s **Quick actions** has an inline reference `button-outreach-mark-sent` (in backticks per the Buttons plugin) so the same command runs while **that send** is the active file.
+
 | View                        | What it shows                                                                                                                          |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **Ready to send**           | `sent_at` empty and **`subject`** + **`body`** filled. Table shows **Body** (after **Subject**) so you can read or copy from the base. |

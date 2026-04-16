@@ -6,17 +6,17 @@ This vault is **git-backed**, lives **only in this folder** (not the parent `sal
 
 ## Folder map
 
-| Folder                  | Role                                                                     | `fileClass` (Metadata Menu) |
-| ----------------------- | ------------------------------------------------------------------------ | --------------------------- |
-| `People/`               | Contacts                                                                 | `Person`                    |
-| `Companies/`            | Accounts                                                                 | `Company`                   |
-| `Personas/`             | Buyer archetypes                                                         | `Persona`                   |
-| `ICPs/`                 | ICP notes; can use subfolders for “child” docs                           | `ICP`                       |
-| `Outreach Sends/`       | Sends / threads; `template` + optional `subject` / `body`                | `OutreachSend`              |
-| `Outreach Templates/`   | Reusable copy (linked from personas / sends)                             | `OutreachTemplate`          |
-| `_schemas/fileClasses/` | **Source of truth** for property definitions                             | —                           |
-| `_views/`               | Bases: `Sales Agent.base`, **`Outreach Queue.base`** (outbox + sent log) | —                           |
-| `scripts/`              | Repo validators (e.g. People `outreach_wave`)                            | —                           |
+| Folder                  | Role                                                                               | `fileClass` (Metadata Menu) |
+| ----------------------- | ---------------------------------------------------------------------------------- | --------------------------- |
+| `People/`               | Contacts                                                                           | `Person`                    |
+| `Companies/`            | Accounts                                                                           | `Company`                   |
+| `Personas/`             | Buyer archetypes                                                                   | `Persona`                   |
+| `ICPs/`                 | ICP notes; can use subfolders for “child” docs                                     | `ICP`                       |
+| `Outreach Sends/`       | Sends / threads; `template` + optional `subject` / `body`                          | `OutreachSend`              |
+| `Outreach Templates/`   | Reusable copy (linked from personas / sends)                                       | `OutreachTemplate`          |
+| `_schemas/fileClasses/` | **Source of truth** for property definitions                                       | —                           |
+| `_views/`               | Bases + **`Outreach Queue dashboard`** (embeds queue base + Buttons for `sent_at`) | —                           |
+| `scripts/`              | Repo validators (e.g. People `outreach_wave`)                                      | —                           |
 
 `INDEX.md` is the human entry point. Optional **child pages** under an ICP live in a subfolder, e.g. `ICPs/<icp-slug--id>/…` with wikilinks + `offer_documents` on the parent ICP.
 
@@ -63,7 +63,7 @@ Use this when you add fields, rename selects, or introduce new relation arrays.
    If a new folder should be excluded, update `.markdownlint-cli2.jsonc` / `.prettierignore`.
 
 5. **Bases (optional)**  
-   For table columns in Obsidian Bases, update `_views/Sales Agent.base` or `_views/Outreach Queue.base` (`properties` + view `order`). See [[_views/README|Vault Views]] for the outreach queue workflow.
+   For table columns in Obsidian Bases, update `_views/Sales Agent.base` or `_views/Outreach Queue.base` (`properties` + view `order`). Day-to-day queue: [[_views/Outreach Queue dashboard|Outreach Queue dashboard]]. See [[_views/README|Vault Views]].
 
 6. **Verify**  
    `pnpm run check` → commit.

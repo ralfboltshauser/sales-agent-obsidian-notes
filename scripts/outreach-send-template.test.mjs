@@ -15,6 +15,33 @@ test("validate:outreach-sends passes on repository Outreach Sends", () => {
   assert.equal(r.status, 0, r.stderr || r.stdout);
 });
 
+test("validate:outreach-sends skips markdown in Outreach Sends/ without fileClass OutreachSend", () => {
+  const name = `_tmp-outreach-non-send-${process.pid}.md`;
+  const path = join(root, "Outreach Sends", name);
+  writeFileSync(
+    path,
+    `---
+title: helper only
+type: Dashboard
+---
+`,
+    "utf8",
+  );
+  try {
+    const r = spawnSync("node", ["scripts/outreach-send-template.mjs", "validate", name], {
+      cwd: root,
+      encoding: "utf8",
+    });
+    assert.equal(r.status, 0, r.stderr || r.stdout);
+  } finally {
+    try {
+      unlinkSync(path);
+    } catch {
+      /* ignore */
+    }
+  }
+});
+
 test("validate:outreach-sends fails when template has no Outreach Templates wikilink", () => {
   const name = `_tmp-outreach-send-validator-${process.pid}.md`;
   const path = join(root, "Outreach Sends", name);

@@ -71,3 +71,5 @@ FileClass for exported outreach send notes.
 **`template`:** must include at least one wikilink under **`Outreach Templates/`** (canonical pattern with `{{placeholders}}`). Enforced by `pnpm run validate:outreach-sends`.
 
 **`subject`** (optional) and **`body`** (optional): the **concrete copy for this send**—what you paste into the client (email subject line and message body). For **`channel: Email`**, fill these when the draft is ready; leave empty while still iterating. The linked template is the source pattern, not the per-recipient final text.
+
+**Buttons + `sent_at`:** see **`_views/Outreach Queue dashboard`** and the **Quick actions** section on send notes (`Templates/outreach/mark-sent-at-today.md` + **Templater** template hotkey).

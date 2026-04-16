@@ -11,6 +11,12 @@ const sendsDir = join(__dirname, "..", "Outreach Sends");
 const TEMPLATE_PATH = "Outreach Templates/";
 const TEMPLATE_LINK = new RegExp(String.raw`\[\[Outreach Templates\/[^[\]]+]]`, "m");
 
+/** Only real send notes (Metadata Menu fileClass), not helper markdown in Outreach Sends/. */
+function isOutreachSendFrontmatter(fm) {
+  if (!fm) return false;
+  return /(^|\n)fileClass:\s*["']?OutreachSend["']?\s*(?=\n|$)/m.test(fm);
+}
+
 function parseFrontmatter(content) {
   const m = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!m) return { fm: null };
@@ -53,6 +59,10 @@ function validate(targetFiles = null) {
     const { fm } = parseFrontmatter(content);
     if (!fm) {
       errors.push(`${file}: missing YAML frontmatter`);
+      continue;
+    }
+
+    if (!isOutreachSendFrontmatter(fm)) {
       continue;
     }
 

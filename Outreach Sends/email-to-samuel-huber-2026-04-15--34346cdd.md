@@ -34,3 +34,9 @@ name: "Email to Samuel Huber - 2026-04-15"
 ## Message
 
 **`subject`** / **`body`** were not captured in this export. Add them in **Properties** if you want the vault to hold the exact text that went out.
+
+## Quick actions
+
+`button-outreach-mark-sent`
+
+Sets **`sent_at`** to today on **this** note. Requires **Templater** + a **Template hotkey** for `Templates/outreach/mark-sent-at-today`, and the parent button on [[_views/Outreach Queue dashboard|Outreach Queue dashboard]].

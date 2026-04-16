@@ -46,3 +46,9 @@ name: "Email draft — Philipp Mathieu (initial outreach)"
 ## Message
 
 Sendable copy lives in **Properties** → **`subject`** and **`body`**. **`template`** links the canonical pattern with `{{placeholders}}`.
+
+## Quick actions
+
+`button-outreach-mark-sent`
+
+Sets **`sent_at`** to today on **this** note. Requires **Templater** + a **Template hotkey** for `Templates/outreach/mark-sent-at-today`, and the parent button on [[_views/Outreach Queue dashboard|Outreach Queue dashboard]].
